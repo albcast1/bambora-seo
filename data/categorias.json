@@ -1,530 +1,882 @@
 [
-    {
-          "slug": "offsites-de-empresa",
-          "nombre": "Offsites de Empresa",
-          "nombreCorto": "offsite",
-          "titulo": "Producción audiovisual para offsites de empresa",
-          "descripcionCorta": "Captura profesional de tus offsites corporativos con cobertura completa en vídeo y fotografía de alta calidad.",
-          "intro": "Los offsites de empresa son momentos clave para afianzar la cultura corporativa y fortalecer las relaciones entre equipos. Una producción audiovisual profesional documenta estos encuentros de forma que puedas reutilizar el contenido en comunicaciones internas y externas. Según datos de Content Marketing Institute, el 92% de las empresas considera que el vídeo es un elemento importante en su estrategia de comunicación interna.",
-          "servicios": [
-                  "Cobertura en vídeo de la jornada completa",
-                  "Fotografía profesional de momentos clave",
-                  "Aftermovie de 3-5 minutos editado",
-                  "Material para redes sociales y comunicación interna",
-                  "Entrevistas y testimonios de asistentes"
-          ],
-          "keywords": [
-                  "vídeo profesional para offsites",
-                  "producción audiovisual eventos empresa",
-                  "cobertura vídeo reunión ejecutiva",
-                  "aftermovie evento corporativo"
-          ],
-          "faq": [
-                  {
-                            "pregunta": "¿Cuánto cuesta la cobertura en vídeo de un offsite?",
-                            "respuesta": "Los presupuestos varían según duración y alcance, pero una cobertura completa con equipo profesional y edición de aftermovie oscila entre 1.500 y 4.000 euros. El coste depende de si necesitas cámaras múltiples, dron, deslizador o efectos especiales. Solicita un presupuesto personalizado con detalles de tu evento."
-                  },
-                  {
-                            "pregunta": "¿Cuánto tiempo tarda en estar listo el aftermovie?",
-                            "respuesta": "El tiempo de edición típico es de 15-20 días hábiles desde la entrega de material grabado. Si necesitas el vídeo en menos tiempo, ofrecemos entregas aceleradas en 7-10 días con un coste adicional del 25%. La duración del material y cambios solicitados pueden afectar estos plazos."
-                  },
-                  {
-                            "pregunta": "¿Incluye derechos de imagen de los asistentes?",
-                            "respuesta": "Sí, gestionamos los permisos y autorizaciones con los asistentes durante el evento. Es fundamental contar con consentimiento explícito para grabar y difundir imágenes, algo que documentamos para proteger legalmente a tu empresa. Ofrecemos plantillas de consentimiento informado adaptadas a RGPD."
-                  },
-                  {
-                            "pregunta": "¿Puedo usar el vídeo en redes sociales y LinkedIn?",
-                            "respuesta": "Absolutamente. La cobertura incluye licencia comercial de los vídeos para que los publiques en todos tus canales sin restricciones adicionales. Además, editamos cortes de 15-30 segundos optimizados específicamente para LinkedIn, Instagram y otras plataformas. Estos clips cortos generan un 48% más de engagement que vídeos más largos."
-                  }
-          ],
-          "relacionadas": [
-                  "aftermovie-para-empresas",
-                  "video-employer-branding",
-                  "contenido-redes-sociales-eventos"
-          ]
-    },
-    {
-          "slug": "team-building",
-          "nombre": "Team Building",
-          "nombreCorto": "team building",
-          "titulo": "Producción audiovisual para team building corporativo",
-          "descripcionCorta": "Documentación profesional de actividades de team building para potenciar la cohesión y crear contenido interno que refuerce la cultura de equipo.",
-          "intro": "El team building es una inversión clave en bienestar y productividad: estudios demuestran que las empresas con equipos cohesionados tienen un 20% más de rentabilidad. Una producción audiovisual no solo documenta estos momentos, sino que genera contenido reutilizable para comunicaciones internas, onboarding de nuevos empleados y reportes de gestión de talento. Capturar la energía y dinámicas de estos eventos crea un acervo visual invaluable.",
-          "servicios": [
-                  "Cobertura en vídeo de actividades y dinámicas",
-                  "Fotografía espontánea de momentos de interacción",
-                  "Montaje resumen dinámico de 2-3 minutos",
-                  "Entrevistas sobre impacto del evento",
-                  "Galería fotográfica web interactiva"
-          ],
-          "keywords": [
-                  "vídeo team building corporativo",
-                  "producción audiovisual actividades equipo",
-                  "cobertura eventos cohesión empresarial",
-                  "contenido team building interno"
-          ],
-          "faq": [
-                  {
-                            "pregunta": "¿Cuántos operadores necesitamos para una buena cobertura?",
-                            "respuesta": "Para team buildings de 30-50 personas, recomendamos mínimo 2 operadores de vídeo y 1 fotógrafo para capturar los mejores momentos de interacción. Si el evento incluye múltiples actividades simultáneas o más de 100 personas, es aconsejable un equipo de 4-5 profesionales. Este reparto asegura que capturamos todos los ángulos y emociones del evento."
-},
+  {
+    "slug": "offsites-de-empresa",
+    "nombre": "Offsites de Empresa",
+    "nombreCorto": "offsite",
+    "titulo": "Producción audiovisual para offsites de empresa",
+    "descripcionCorta": "Captura profesional de tus offsites corporativos con cobertura completa en vídeo y fotografía de alta calidad.",
+    "intro": "Los offsites de empresa son momentos clave para afianzar la cultura corporativa y fortalecer las relaciones entre equipos. Una producción audiovisual profesional documenta estos encuentros de forma que puedas reutilizar el contenido en comunicaciones internas y externas. Según datos de Content Marketing Institute, el 92% de las empresas considera que el vídeo es un elemento importante en su estrategia de comunicación interna.",
+    "servicios": [
+      "Cobertura en vídeo de la jornada completa",
+      "Fotografía profesional de momentos clave",
+      "Aftermovie de 3-5 minutos editado",
+      "Material para redes sociales y comunicación interna",
+      "Entrevistas y testimonios de asistentes"
+    ],
+    "keywords": [
+      "vídeo profesional para offsites",
+      "producción audiovisual eventos empresa",
+      "cobertura vídeo reunión ejecutiva",
+      "aftermovie evento corporativo"
+    ],
+    "faq": [
       {
-                "pregunta": "¿Cuánto material rodado se genera en un day?",
-                "respuesta": "Un equipo de cobertura típica graba entre 8-12 horas de material bruto durante un día completo de team building. De este volumen, editamos un montaje resumen que destaca los 120-180 segundos más dinámicos y representativos del evento. El cliente recibe además el material completo sin editar para usos internos."
+        "pregunta": "¿Cuánto cuesta la cobertura en vídeo de un offsite?",
+        "respuesta": "Los presupuestos varían según duración y alcance, pero una cobertura completa con equipo profesional y edición de aftermovie oscila entre 1.500 y 4.000 euros. El coste depende de si necesitas cámaras múltiples, dron, deslizador o efectos especiales. Solicita un presupuesto personalizado con detalles de tu evento."
       },
       {
-                "pregunta": "¿Cómo gestionamos la privacidad de los asistentes?",
-                "respuesta": "Enviamos un comunicado antes del evento explicando que habrá cobertura audiovisual y damos opción a los asistentes de marcar una zona o momento sin grabación. Aplicamos políticas RGPD estrictas: no grabamos datos biométricos ni identificamos personas sin consentimiento previo. Toda documentación de derechos de imagen se archivo conforme a legislación vigente."
+        "pregunta": "¿Cuánto tiempo tarda en estar listo el aftermovie?",
+        "respuesta": "El tiempo de edición típico es de 15-20 días hábiles desde la entrega de material grabado. Si necesitas el vídeo en menos tiempo, ofrecemos entregas aceleradas en 7-10 días con un coste adicional del 25%. La duración del material y cambios solicitados pueden afectar estos plazos."
       },
       {
-                "pregunta": "¿Entregáis los vídeos sin marca de agua?",
-                "respuesta": "Sí, entregamos todos los archivos finales sin marca de agua ni branding de productora, ya que son de tu propiedad. Los vídeos están optimizados en múltiples formatos: 4K para archivo, 1080p para distribución digital, y versiones verticales para redes sociales. Cada formato viene con archivos Master sin comprimir para futuras reediciones."
+        "pregunta": "¿Incluye derechos de imagen de los asistentes?",
+        "respuesta": "Sí, gestionamos los permisos y autorizaciones con los asistentes durante el evento. Es fundamental contar con consentimiento explícito para grabar y difundir imágenes, algo que documentamos para proteger legalmente a tu empresa. Ofrecemos plantillas de consentimiento informado adaptadas a RGPD."
+      },
+      {
+        "pregunta": "¿Puedo usar el vídeo en redes sociales y LinkedIn?",
+        "respuesta": "Absolutamente. La cobertura incluye licencia comercial de los vídeos para que los publiques en todos tus canales sin restricciones adicionales. Además, editamos cortes de 15-30 segundos optimizados específicamente para LinkedIn, Instagram y otras plataformas. Estos clips cortos generan un 48% más de engagement que vídeos más largos."
       }
-],
+    ],
     "relacionadas": [
-            "video-employer-branding",
-            "contenido-redes-sociales-eventos",
-            "video-recap-evento"
+      "aftermovie-para-empresas",
+      "video-employer-branding",
+      "contenido-redes-sociales-eventos"
     ]
-},
-  {
-        "slug": "viajes-de-empresa",
-        "nombre": "Viajes de Empresa",
-        "nombreCorto": "viaje de empresa",
-        "titulo": "Producción audiovisual para viajes de empresa",
-        "descripcionCorta": "Documental de tus viajes corporativos con cobertura completa en múltiples destinos y generación de contenido que captures la experiencia de cohesión.",
-        "intro": "Los viajes de empresa refuerzan la cohesión interna y crean momentos memorables que son oro puro para la comunicación de cultura corporativa. Una producción audiovisual profesional durante el viaje permite documentar la experiencia en distintos escenarios geográficos, generando un archivo visual de la vivencia compartida que perdura. Según datos de SHRM, el 79% de los empleados considera que los viajes y eventos corporativos mejoran su sentido de pertenencia. Un documental profesional de tu viaje corporativo no es solo un video, es un artefacto de memoria colectiva que refuerza el ADN de tu empresa."colectiva. Datos de Trabajo Global demuestran que el 78% de empleados valora más los viajes incentivos que aumentos salariales equivalentes, por lo que capturarlos audiovisualmente maximiza su impacto.",
-        "servicios": [
-                "Cobertura multilocación en destino elegido",
-                "Vídeo documental de 4-6 minutos editado",
-                "Fotografía de viaje y momentos experienciales",
-                "Contenido diario para redes sociales del evento",
-                "Dron para vistas panorámicas de destino"
-        ],
-        "keywords": [
-                "vídeo viaje de incentivos corporativo",
-                "producción audiovisual viaje empresa",
-                "documental evento viaje ejecutivo",
-                "cobertura viaje destinación corporativa"
-        ],
-        "faq": [
-                {
-                          "pregunta": "¿Trabajáis en destinos internacionales?",
-                          "respuesta": "Sí, disponemos de red de colaboradores en más de 40 destinos: Portugal, Italia, Francia, Marruecos, República Dominicana y otros. El equipo viaja junto a tu grupo o contactamos con productoras locales especializadas. El coste añadido de desplazamiento oscila entre 500-1.500 euros según distancia, más gastos de alojamiento y manutención del equipo."
-                },
-                {
-                          "pregunta": "¿Necesitáis permisos especiales para grabar en diferentes países?",
-                          "respuesta": "Gestionamos los permisos legales necesarios en cada destino: licencias de rodaje, seguros internacionales y documentación de derechos de imagen según legislación local. El proceso tarda 20-30 días desde confirmación de destino, razón por la que es fundamental comunicar el viaje con tiempo suficiente. Todos los trámites están incluidos en nuestro presupuesto."
-                },
-                {
-                          "pregunta": "¿Cuánto tiempo de grabación es lo ideal para un viaje?",
-                          "respuesta": "Recomendamos asignar entre 4-8 horas diarias de cobertura dedicada en un viaje de 3-5 días, evitando sobrecargar de grabación. Esto permite capturar momentos clave sin interferir en la experiencia de los asistentes, que son los protagonistas. El ratio típico es 20-30 horas de grabación bruta para producir un documental final de 5-6 minutos de calidad cinematográfica."
-                },
-                {
-                          "pregunta": "¿Entregáis el vídeo documental ya subtitulado en inglés?",
-                          "respuesta": "Por defecto entregamos vídeos en español, con opción de subtítulos en inglés por 400 euros adicionales. Si necesitas doblaje al inglés con voces profesionales, el coste es de 800 euros para una duración de 5-6 minutos. Muchas empresas multinacionales optan por ambas versiones para maximizar el uso en comunicaciones globales."
-                }
-        ],
-        "relacionadas": [
-                "aftermovie-para-empresas",
-                "grabacion-con-dron-eventos",
-                "video-employer-branding"
-        ]
   },
   {
-        "slug": "eventos-corporativos",
-        "nombre": "Eventos Corporativos",
-        "nombreCorto": "evento corporativo",
-        "titulo": "Producción audiovisual para eventos corporativos",
-        "descripcionCorta": "Cobertura profesional integral de tu evento corporativo con múltiples cámaras, edición profesional y contenido listo para distribución interna y externa.",
-        "intro": "Los eventos corporativos son vitrinas de marca y oportunidades para comunicar valores, logros y visión empresarial a múltiples públicos. Una producción audiovisual profesional amplifica el alcance del evento más allá de los asistentes presenciales, permitiendo que colaboradores remotos, clientes y candidatos experimentar el mensaje y energía de tu empresa. El 87% de directivos considera que el vídeo corporativo mejora notablemente la retención de mensajes en comparación con presentaciones únicamente textuales.",
-        "servicios": [
-                "Cobertura multicámara del evento completo",
-                "Edición profesional del vídeo principal",
-                "Entrevistas a ponentes y ejecutivos",
-                "Material para streaming en directo",
-                "Paquete de clips para redes sociales"
-        ],
-        "keywords": [
-                "vídeo profesional evento corporativo",
-                "producción audiovisual lanzamiento empresa",
-                "cobertura evento empresarial España",
-                "streaming vídeo evento ejecutivo"
-        ],
-        "faq": [
-                {
-                          "pregunta": "¿Qué es lo mínimo que necesitamos para una cobertura de calidad?",
-                          "respuesta": "Mínimo necesitamos 2 cámaras profesionales, 1 fotógrafo y 1 editor, dependiendo de la complejidad del evento. Para eventos con más de 200 personas o múltiples salas, recomendamos 3-4 cámaras y equipo de sonido especializado. Un presupuesto base de cobertura simple es de 2.500 euros, mientras que coberturas premium con dron y efectos especiales rondan 4.500-6.000 euros."
-                },
-                {
-                          "pregunta": "¿Cuánto tiempo transcurre desde la grabación hasta recibir el vídeo final?",
-                          "respuesta": "El tiempo estándar es 20 días hábiles desde fin de grabación. Si requieres entrega acelerada en 10 días, aplicamos un 30% de coste adicional. Procesos más ágiles en 48-72 horas son posibles para contenido básico de redes sociales, pero no para edición profesional completa con efectos y color grading."
-                },
-                {
-                          "pregunta": "¿Incluís la gestión de derechos musicales?",
-                          "respuesta": "Sí, incluimos música libre de derechos de catálogos profesionales o música original compuesta. Si deseas usar una canción específica con derechos, gestionamos la licencia, cuyo coste varía de 200-800 euros según duración y tipo de explotación (interna vs. pública). Recomendamos música libre de derechos para maximizar flexibilidad de distribución."
-                },
-                {
-                          "pregunta": "¿Podéis hacer streaming en directo de nuestro evento?",
-                          "respuesta": "Sí, somos especialistas en streaming corporativo. Ofrecemos cobertura en directo con mínimo 1080p y múltiples ángulos de cámara con valor de 3.500-5.000 euros según requisitos técnicos. La plataforma de streaming puede ser YouTube, vimeo corporativo, Microsoft Teams o una solución interna. Disponibilidad de técnico de transmisión incluida."
-                }
-        ],
-        "relacionadas": [
-                "video-employer-branding",
-                "grabacion-con-dron-eventos",
-                "edicion-video-profesional"
-        ]
+    "slug": "team-building",
+    "nombre": "Team Building",
+    "nombreCorto": "team building",
+    "titulo": "Producción audiovisual para team building corporativo",
+    "descripcionCorta": "Documentación profesional de actividades de team building para potenciar la cohesión y crear contenido interno que refuerce la cultura de equipo.",
+    "intro": "El team building es una inversión clave en bienestar y productividad: estudios demuestran que las empresas con equipos cohesionados tienen un 20% más de rentabilidad. Una producción audiovisual no solo documenta estos momentos, sino que genera contenido reutilizable para comunicaciones internas, onboarding de nuevos empleados y reportes de gestión de talento. Capturar la energía y dinámicas de estos eventos crea un acervo visual invaluable.",
+    "servicios": [
+      "Cobertura en vídeo de actividades y dinámicas",
+      "Fotografía espontánea de momentos de interacción",
+      "Montaje resumen dinámico de 2-3 minutos",
+      "Entrevistas sobre impacto del evento",
+      "Galería fotográfica web interactiva"
+    ],
+    "keywords": [
+      "vídeo team building corporativo",
+      "producción audiovisual actividades equipo",
+      "cobertura eventos cohesión empresarial",
+      "contenido team building interno"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Cuántos operadores necesitamos para una buena cobertura?",
+        "respuesta": "Para team buildings de 30-50 personas, recomendamos mínimo 2 operadores de vídeo y 1 fotógrafo para capturar los mejores momentos de interacción. Si el evento incluye múltiples actividades simultáneas o más de 100 personas, es aconsejable un equipo de 4-5 profesionales. Este reparto asegura que capturamos todos los ángulos y emociones del evento."
+      },
+      {
+        "pregunta": "¿Cuánto material rodado se genera en un day?",
+        "respuesta": "Un equipo de cobertura típica graba entre 8-12 horas de material bruto durante un día completo de team building. De este volumen, editamos un montaje resumen que destaca los 120-180 segundos más dinámicos y representativos del evento. El cliente recibe además el material completo sin editar para usos internos."
+      },
+      {
+        "pregunta": "¿Cómo gestionamos la privacidad de los asistentes?",
+        "respuesta": "Enviamos un comunicado antes del evento explicando que habrá cobertura audiovisual y damos opción a los asistentes de marcar una zona o momento sin grabación. Aplicamos políticas RGPD estrictas: no grabamos datos biométricos ni identificamos personas sin consentimiento previo. Toda documentación de derechos de imagen se archivo conforme a legislación vigente."
+      },
+      {
+        "pregunta": "¿Entregáis los vídeos sin marca de agua?",
+        "respuesta": "Sí, entregamos todos los archivos finales sin marca de agua ni branding de productora, ya que son de tu propiedad. Los vídeos están optimizados en múltiples formatos: 4K para archivo, 1080p para distribución digital, y versiones verticales para redes sociales. Cada formato viene con archivos Master sin comprimir para futuras reediciones."
+      }
+    ],
+    "relacionadas": [
+      "video-employer-branding",
+      "contenido-redes-sociales-eventos",
+      "video-recap-evento"
+    ]
   },
   {
-        "slug": "conferencias-y-seminarios",
-        "nombre": "Conferencias y Seminarios",
-        "nombreCorto": "conferencia",
-        "titulo": "Producción audiovisual para conferencias y seminarios",
-        "descripcionCorta": "Cobertura profesional de conferencias con múltiples cámaras, captura de presentaciones y generación de contenido educativo para distribución posterior.",
-        "intro": "Las conferencias y seminarios son momentos donde se concentra conocimiento experto y se generan insights valiosos para tu industria. Una cobertura audiovisual profesional permite preservar ese conocimiento y alcanzar a audiencias que no pudieron asistir presencialmente, multiplicando el ROI del evento. El 73% de profesionales preferirían ver una conferencia grabada a leer un resumen escrito, lo que convierte la captura audiovisual en un activo estratégico para tu empresa.",
-        "servicios": [
-                "Captura multicámara de presentaciones",
-                "Grabación de slides sincronizado con audio",
-                "Subtítulos automáticos en español e inglés",
-                "Clips destacados de intervenciones clave",
-                "Portal de vídeo para distribución a empleados"
-        ],
-        "keywords": [
-                "vídeo conferencia profesional",
-                "grabación seminario educativo",
-                "captura presentación ejecutiva",
-                "vídeo knowledge management corporativo"
-        ],
-        "faq": [
-                {
-                          "pregunta": "¿Cómo capturáis las presentaciones de slides sin que se vea el proyector?",
-                          "respuesta": "Conectamos directamente a la salida de vídeo del ordenador del presentador, capturando slides en 4K sin parpadeos ni reflejos de proyector. Sincronizamos esta señal con la cámara principal para que en edición podamos elegir dinámicamente entre vista general del ponente y detalle de slides. El resultado es un vídeo profesional que facilita la comprensión de contenidos complejos."
-                },
-                {
-                          "pregunta": "¿Añadís subtítulos automáticos?",
-                          "respuesta": "Sí, generamos subtítulos automáticos en español mediante IA (con 95% de precisión) e inglés. Estos son editables y ajustables manualmente si requieres correcciones terminológicas específicas de tu sector. Incluimos transcripción completa del audio para fines de accesibilidad y SEO. El coste de subtítulos está incluido en el paquete de cobertura estándar."
-                },
-                {
-                          "pregunta": "¿Podéis editar clips cortos de las intervenciones para redes sociales?",
-                          "respuesta": "Absolutamente. Editamos 3-5 clips de 60-90 segundos de las intervenciones más destacadas, optimizados para LinkedIn, Twitter y otras plataformas con anotaciones y textos dinámicos. Estos clips generan hasta 10x más engagement que el vídeo completo de 1+ horas en redes sociales. Incluimos 5 clips en el paquete base, con posibilidad de añadir más por 150 euros cada uno."
-                },
-                {
-                          "pregunta": "¿Cómo distribuyó el vídeo internamente de forma segura?",
-                          "respuesta": "Ofrecemos integración con portales corporativos privados (Sharepoint, Intranet, etc.) o plataforma de vídeo empresarial Vimeo con autenticación. Los vídeos quedan protegidos con contraseña y solo accesibles a empleados autenticados. También puede solicitarse geobloqueo para garantizar visualización solo en territorio español si es necesario por políticas corporativas."
-                }
-        ],
-        "relacionadas": [
-                "video-employer-branding",
-                "edicion-video-profesional",
-                "streaming-directo-evento"
-        ]
+    "slug": "viajes-de-empresa",
+    "nombre": "Viajes de Empresa",
+    "nombreCorto": "viaje de empresa",
+    "titulo": "Producción audiovisual para viajes de empresa",
+    "descripcionCorta": "Documental de tus viajes corporativos con cobertura completa en múltiples destinos y generación de contenido que captures la experiencia de cohesión.",
+    "intro": "Los viajes de empresa refuerzan la cohesión interna y crean momentos memorables que son oro puro para la comunicación de cultura corporativa. Una producción audiovisual profesional durante el viaje permite documentar la experiencia en distintos escenarios geográficos, generando un archivo visual de la vivencia colectiva. Datos de Trabajo Global demuestran que el 78% de empleados valora más los viajes incentivos que aumentos salariales equivalentes, por lo que capturarlos audiovisualmente maximiza su impacto.",
+    "servicios": [
+      "Cobertura multilocación en destino elegido",
+      "Vídeo documental de 4-6 minutos editado",
+      "Fotografía de viaje y momentos experienciales",
+      "Contenido diario para redes sociales del evento",
+      "Dron para vistas panorámicas de destino"
+    ],
+    "keywords": [
+      "vídeo viaje de incentivos corporativo",
+      "producción audiovisual viaje empresa",
+      "documental evento viaje ejecutivo",
+      "cobertura viaje destinación corporativa"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Trabajáis en destinos internacionales?",
+        "respuesta": "Sí, disponemos de red de colaboradores en más de 40 destinos: Portugal, Italia, Francia, Marruecos, República Dominicana y otros. El equipo viaja junto a tu grupo o contactamos con productoras locales especializadas. El coste añadido de desplazamiento oscila entre 500-1.500 euros según distancia, más gastos de alojamiento y manutención del equipo."
+      },
+      {
+        "pregunta": "¿Necesitáis permisos especiales para grabar en diferentes países?",
+        "respuesta": "Gestionamos los permisos legales necesarios en cada destino: licencias de rodaje, seguros internacionales y documentación de derechos de imagen según legislación local. El proceso tarda 20-30 días desde confirmación de destino, razón por la que es fundamental comunicar el viaje con tiempo suficiente. Todos los trámites están incluidos en nuestro presupuesto."
+      },
+      {
+        "pregunta": "¿Cuánto tiempo de grabación es lo ideal para un viaje?",
+        "respuesta": "Recomendamos asignar entre 4-8 horas diarias de cobertura dedicada en un viaje de 3-5 días, evitando sobrecargar de grabación. Esto permite capturar momentos clave sin interferir en la experiencia de los asistentes, que son los protagonistas. El ratio típico es 20-30 horas de grabación bruta para producir un documental final de 5-6 minutos de calidad cinematográfica."
+      },
+      {
+        "pregunta": "¿Entregáis el vídeo documental ya subtitulado en inglés?",
+        "respuesta": "Por defecto entregamos vídeos en español, con opción de subtítulos en inglés por 400 euros adicionales. Si necesitas doblaje al inglés con voces profesionales, el coste es de 800 euros para una duración de 5-6 minutos. Muchas empresas multinacionales optan por ambas versiones para maximizar el uso en comunicaciones globales."
+      }
+    ],
+    "relacionadas": [
+      "aftermovie-para-empresas",
+      "grabacion-con-dron-eventos",
+      "video-employer-branding"
+    ]
   },
   {
-        "slug": "lanzamientos-de-producto",
-        "nombre": "Lanzamientos de Producto",
-        "nombreCorto": "lanzamiento producto",
-        "titulo": "Producción audiovisual para lanzamientos de producto",
-        "descripcionCorta": "Cobertura cinematográfica de lanzamientos de producto con énfasis en storytelling emocional y demostración de características diferenciadores.",
-        "intro": "Un lanzamiento de producto es el momento de máxima visibilidad y expectativa en el ciclo de vida del producto. Una producción audiovisual de alto impacto crea anticipación, comunica el valor diferencial y genera cobertura en medios. Las empresas que invierten en vídeo profesional para lanzamientos ven un 62% más de media en cobertura de prensa y un 45% más en engagement en redes sociales versus lanzamientos sin vídeo de apoyo.",
-        "servicios": [
-                "Vídeo teaser y anuncio promocional",
-                "Demostración de características del producto",
-                "Testimonios de clientes/usuarios",
-                "Material 360° del producto",
-                "Guía rápida en vídeo tutorial"
-        ],
-        "keywords": [
-                "vídeo promocional lanzamiento producto",
-                "producción audiovisual producto nuevo",
-                "vídeo demo características producto",
-                "storytelling video lanzamiento"
-        ],
-        "faq": [
-                {
-                          "pregunta": "¿Cuánto cuesta un vídeo de lanzamiento profesional?",
-                          "respuesta": "Los presupuestos varían significativamente según complejidad. Un teaser de 30 segundos está entre 800-1.500 euros. Un vídeo de demostración de 2-3 minutos con animaciones y voces profesionales oscila entre 2.000-4.000 euros. Producciones cinematográficas con actores y localizaciones especiales pueden alcanzar 8.000-15.000 euros. Ofrecemos presupuestos ajustados a tu visión y presupuesto."
-                },
-                {
-                          "pregunta": "¿Podéis crear animaciones 3D del producto?",
-                          "respuesta": "Sí, disponemos de especialistas en 3D y motion graphics. Podemos crear visualizaciones fotorrealistas del producto, animaciones explicativas de funcionamiento, y montajes complejos. Los costes de animación 3D profesional están entre 3.000-8.000 euros según complejidad, tiempo de pantalla y nivel de detalle requerido. Estos costes se agrupan a otros servicios audiovisuales del lanzamiento."
-                },
-                {
-                          "pregunta": "¿Incluís localizaciones para grabar el producto?",
-                          "respuesta": "Sí, gestionamos scouting de localizaciones, permisos de rodaje, y equipo de arte para que el producto luzca en contexto. Localizaciones simples (estudios, espacios corporativos) están incluidas. Localizaciones exteriores o especiales incurren en costes adicionales de producción (400-1.200 euros según complejidad). Recomendamos mostrar el producto en contexto real de uso para maximizar relevancia."
-                },
-                {
-                          "pregunta": "¿Qué formatos entregáis para distribución multicanal?",
-                          "respuesta": "Entregamos formato Master (ProRes 422 HQ sin comprimir en 4K), versiones comprimidas para YouTube/Vimeo en 1080p y 4K, versiones verticales para Instagram/TikTok, versiones cuadradas para anuncios Facebook, y versión optimizada para emails. Todos los formatos están incluidos, sin costes adicionales. También incluimos subtítulos abiertos en español e inglés."
-                }
-        ],
-        "relacionadas": [
-                "video-employer-branding",
-                "edicion-video-profesional",
-                "animacion-3d-video"
-        ]
+    "slug": "eventos-corporativos",
+    "nombre": "Eventos Corporativos",
+    "nombreCorto": "evento corporativo",
+    "titulo": "Producción audiovisual para eventos corporativos",
+    "descripcionCorta": "Cobertura profesional integral de tu evento corporativo con múltiples cámaras, edición profesional y contenido listo para distribución interna y externa.",
+    "intro": "Los eventos corporativos son vitrinas de marca y oportunidades para comunicar valores, logros y visión empresarial a múltiples públicos. Una producción audiovisual profesional amplifica el alcance del evento más allá de los asistentes presenciales, permitiendo que colaboradores remotos, clientes y candidatos experimentar el mensaje y energía de tu empresa. El 87% de directivos considera que el vídeo corporativo mejora notablemente la retención de mensajes en comparación con presentaciones únicamente textuales.",
+    "servicios": [
+      "Cobertura multicámara del evento completo",
+      "Edición profesional del vídeo principal",
+      "Entrevistas a ponentes y ejecutivos",
+      "Material para streaming en directo",
+      "Paquete de clips para redes sociales"
+    ],
+    "keywords": [
+      "vídeo profesional evento corporativo",
+      "producción audiovisual lanzamiento empresa",
+      "cobertura evento empresarial España",
+      "streaming vídeo evento ejecutivo"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Qué es lo mínimo que necesitamos para una cobertura de calidad?",
+        "respuesta": "Mínimo necesitamos 2 cámaras profesionales, 1 fotógrafo y 1 editor, dependiendo de la complejidad del evento. Para eventos con más de 200 personas o múltiples salas, recomendamos 3-4 cámaras y equipo de sonido especializado. Un presupuesto base de cobertura simple es de 2.500 euros, mientras que coberturas premium con dron y efectos especiales rondan 4.500-6.000 euros."
+      },
+      {
+        "pregunta": "¿Cuánto tiempo transcurre desde la grabación hasta recibir el vídeo final?",
+        "respuesta": "El tiempo estándar es 20 días hábiles desde fin de grabación. Si requieres entrega acelerada en 10 días, aplicamos un 30% de coste adicional. Procesos más ágiles en 48-72 horas son posibles para contenido básico de redes sociales, pero no para edición profesional completa con efectos y color grading."
+      },
+      {
+        "pregunta": "¿Incluís la gestión de derechos musicales?",
+        "respuesta": "Sí, incluimos música libre de derechos de catálogos profesionales o música original compuesta. Si deseas usar una canción específica con derechos, gestionamos la licencia, cuyo coste varía de 200-800 euros según duración y tipo de explotación (interna vs. pública). Recomendamos música libre de derechos para maximizar flexibilidad de distribución."
+      },
+      {
+        "pregunta": "¿Podéis hacer streaming en directo de nuestro evento?",
+        "respuesta": "Sí, somos especialistas en streaming corporativo. Ofrecemos cobertura en directo con mínimo 1080p y múltiples ángulos de cámara con valor de 3.500-5.000 euros según requisitos técnicos. La plataforma de streaming puede ser YouTube, vimeo corporativo, Microsoft Teams o plataforma personalizada según tus necesidades."
+      }
+    ],
+    "relacionadas": [
+      "streaming-en-directo-corporativo",
+      "video-testimonial-corporativo",
+      "contenido-redes-sociales-eventos"
+    ]
   },
   {
-        "slug": "contenido-redes-sociales",
-        "nombre": "Contenido Redes Sociales",
-        "nombreCorto": "redes sociales",
-        "titulo": "Producción de contenido de video para redes sociales",
-        "descripcionCorta": "Creación de vídeos cortos, dinámicos y optimizados para plataformas sociales que impulsan engagement, alcance y conversión.",
-        "intro": "El vídeo corto es el formato dominante en redes sociales: el 85% de usuarios en LinkedIn, Instagram y TikTok prefieren ver contenido en vídeo. Crear vídeos optimizados para cada plataforma requiere comprensión profunda de algoritmos, duración ideal, ratio de aspecto, y patrones de consumo. Nuestros vídeos para redes sociales están diseñados para capturen atención en los primeros 3 segundos y generen interacción inmediata.",
-        "servicios": [
-                "Vídeos cortos 15-60 segundos optimizados",
-                "Diseño gráfico y motion graphics",
-                "Subtítulos y caratulas dinámicas",
-                "A/B testing de múltiples versiones",
-                "Calendario de contenido planificado"
-        ],
-        "keywords": [
-                "vídeo corto redes sociales",
-                "contenido video LinkedIn empresa",
-                "shorts video Instagram TikTok",
-                "producción video contenido social"
-        ],
-        "faq": [
-                {
-                          "pregunta": "¿Cuál es la duración ideal para vídeos de redes sociales?",
-                          "respuesta": "LinkedIn: 30-90 segundos (máximo impacto). Instagram Reels: 15-30 segundos. TikTok: 15-60 segundos. Facebook: 30-120 segundos. Twitter: 15-30 segundos. Duración más corta = mayor probabilidad de visualización completa y engagement. Un vídeo de 10 segundos genera 3x más engagement que uno de 60 segundos en igualdad de contenido. Recomendamos distribuir la información en múltiples vídeos cortos."
-                },
-                {
-                          "pregunta": "¿Cuánto cuesta producir contenido video regularmente?",
-                          "respuesta": "Ofrecemos modelos de suscripción: 1.500 euros/mes por 8 vídeos (2 al mes). 2.500 euros/mes por 16 vídeos (4 al mes). 4.000 euros/mes por 24 vídeos (6 al mes). Cada plan incluye concepto creativo, grabación, edición, subtítulos y optimización multiplataforma. Es 40% más barato que contratación freelance y asegura consistencia en calidad y estilo."
-                },
-                {
-                          "pregunta": "¿Qué tipo de contenido genera máscomo engagement?",
-                          "respuesta": "Contenido educativo (tips, tutoriales) genera 2x más engagement. Contenido de testimonios/casos de éxito: 1.8x. Contenido detrás de cámaras/cultura corporativa: 1.5x. Contenido promocional puro: 0.8x (bajo engagement). Recomendamos 70% contenido de valor, 20% educativo, 10% promocional. Los algoritmos favorecen contenido que mantiene a usuarios en plataforma, no que los dirige afuera."
-                },
-                {
-                          "pregunta": "¿Realizáis análisis de rendimiento y optimización?",
-                          "respuesta": "Sí, incluimos informe mensual de métricas: visualizaciones, clicks, shares, conversión, tasa de engagement, alcance orgánico vs. pagado. Optimizamos estrategia basado en datos: ajustamos temas, duraciones, horarios de publicación y formatos según qué funciona mejor. Los datos demuestran que optimización continua aumenta engagement 35% a los 3 meses."
-                }
-        ],
-        "relacionadas": [
-                "estrategia-contenido-video",
-                "video-marketing-corporativo",
-                "edicion-video-profesional"
-        ]
+    "slug": "convenciones-de-empresa",
+    "nombre": "Convenciones de Empresa",
+    "nombreCorto": "convención",
+    "titulo": "Producción audiovisual para convenciones de empresa",
+    "descripcionCorta": "Documentación profesional de convenciones y encuentros empresariales con cobertura integral, livestream y contenido multiplataforma.",
+    "intro": "Las convenciones de empresa son eventos de alto impacto que reúnen a cientos de colaboradores, distribuidores o accionistas con objetivos de alineación, capacitación y motivación. Una producción audiovisual profesional captura presentaciones clave, dinámicas de interacción y momentos emotivos que definen el tono del encuentro. Según datos de Aberdeen Group, las empresas que invierten en documentación audiovisual de eventos mejoran en un 34% la retención de información de los asistentes respecto a eventos sin cobertura.",
+    "servicios": [
+      "Cobertura multicámara de sesiones plenarias",
+      "Grabación de talleres simultáneos con múltiples equipos",
+      "Streaming en directo con producción de calidad TV",
+      "Documentación fotográfica de networking",
+      "Edición de vídeo resumen de 8-10 minutos"
+    ],
+    "keywords": [
+      "vídeo convención empresa",
+      "producción audiovisual encuentro corporativo",
+      "streaming convención profesional",
+      "cobertura evento convención ejecutiva"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Cuántas personas de equipo necesitáis para una convención de 500 personas?",
+        "respuesta": "Para una convención de 500+ asistentes con múltiples salas de contenido simultáneo, el equipo mínimo es 6 personas: 4 operadores de cámara, 1 técnico de audio y 1 productor de control central. Si además hay streaming, sumamos 1-2 técnicos especializados en transmisión. El presupuesto integral oscila entre 8.000 y 12.000 euros según duración del evento."
+      },
+      {
+        "pregunta": "¿Cómo gestionáis la grabación de múltiples salas simultáneas?",
+        "respuesta": "Desplegamos equipos de cámara dedicados en cada sala con sistema centralizado de control mediante talkback. Todos los flujos se sincronizan en un control central con múltiples monitores y un director de vídeo coordinando grabación y switching. Posteriormente, editamos secuencias cruzadas que intercalan contenido de diferentes salas según relevancia narrativa. Este sistema requiere 4 cámaras mínimo."
+      },
+      {
+        "pregunta": "¿Entregáis separado el material de cada sala o solo el montaje final?",
+        "respuesta": "Entregamos ambos: el montaje final editado de 8-10 minutos y además todos los archivos Master de cada sala sin editar para que conserves archivo completo. Además, generamos clips temáticos de 2-3 minutos por sala principal para distribución interna. Todo el material viene en 4K y categorizado por sesión para fácil acceso."
+      },
+      {
+        "pregunta": "¿Cuál es el coste adicional si queremos transmisión en directo además de cobertura?",
+        "respuesta": "El livestream añade 2.500-4.000 euros al presupuesto dependiendo de calidad (720p vs 1080p) y plataforma. Incluye 2 técnicos especializados, infraestructura de internet dedicada, control de dirección en studio de producción remota y grabación paralela para archivo. Recomendamos amplio ancho de banda: mínimo 25 Mbps upload dedicado para streaming 1080p estable."
+      }
+    ],
+    "relacionadas": [
+      "streaming-en-directo-corporativo",
+      "video-recap-evento",
+      "fotografo-eventos-corporativos"
+    ]
   },
   {
-        "slug": "video-marketing",
-        "nombre": "Vídeo Marketing",
-        "nombreCorto": "vídeo marketing",
-        "titulo": "Vídeo Marketing: Campañas audiovisuales de impacto",
-        "descripcionCorta": "Campañas de vídeo marketing diseñadas para atraer clientes, comunicar propuesta de valor y convertir leads en clientes.",
-        "intro": "El vídeo es el formato más efectivo para comunicar valor y generar conversiones: usuarios que ven vídeo tienen 1.8x más probabilidad de compra versus quienes solo leen. Un vídeo marketing bien producido es un activo que genera retorno durante meses o años, posicionando tu empresa como líder de mercado. Nuestro objetivo es crear vídeos que no solo comuniquen, sino que emocionen y motiven acción inmediata.",
-        "servicios": [
-                "Vídeo de propuesta de valor (USP)",
-                "Estudios de caso y testimonios",
-                "Vídeos explicativos animados",
-                "Vídeos de email marketing",
-                "Landing pages con vídeo embebido"
-        ],
-        "keywords": [
-                "vídeo marketing b2b",
-                "producción vídeo propuesta valor",
-                "vídeo explicativo servicios",
-                "campaña vídeo marketing conversión"
-        ],
-        "faq": [
-                {
-                          "pregunta": "¿Cómo medís el ROI del vídeo marketing?",
-                          "respuesta": "Implementamos tracking de conversión: vinculamos vídeos a URLs únicos o códigos de seguimiento para medir conversiones directas. En email marketing, medimos tasa de click y conversión en función de si incluyen o no vídeo. Casos reales muestran aumento promedio de 25-40% en tasa de conversión con vídeo versus sin vídeo en misma campaña. Aún conservadoramente el ROI de un vídeo marketing de calidad es positivo en 6-9 meses."
-                },
-                {
-                          "pregunta": "¿Qué duración es ideal para vídeos de marketing?",
-                          "respuesta": "Landing page o homepage: 30-60 segundos máximo (usuarios desconcentrados). Email marketing: 15-30 segundos (más probable visualización). Redes sociales: 15-60 segundos. YouTube (campañas de awareness): 15-120 segundos. Vídeos de producto detallados (en web): 2-5 minutos. Regla general: más corto siempre consigue mejor tasa de visualización completa. Divide contenido largo en capítulos."
-                },
-                {
-                          "pregunta": "¿Incluís asesoramiento estratégico de vídeo marketing?",
-                          "respuesta": "Sí, incluimos sesión inicial de estrategia: análisis de competencia, identificación de públicos, definición de objetivos KPI, mapeo de buyer journey con puntos de contacto video. Incluimos 2 sesiones de revisión durante producción y sesión final de resultados/optimización post-lanzamiento. Este asesoramiento está incluido en proyectos de valor superior a 2.500 euros."
-                },
-                {
-                          "pregunta": "¿Podéis integrar el vídeo en nuestra web/CRM?",
-                          "respuesta": "Sí, integramos vídeos en landing pages, enviamos a tu CRM o HubSpot, configuramos vídeos interactivos con CTAs, y implementamos tracking pixel para remarketing en Google Ads y Facebook. Todas las integraciones están incluidas en nuestro servicio. El vídeo se sirve desde CDN de Vimeo para garantizar performance óptimo sin afectar velocidad de tu web."
-                }
-        ],
-        "relacionadas": [
-                "video-employer-branding",
-                "edicion-video-profesional",
-                "animacion-3d-video"
-        ]
+    "slug": "kickoff-de-empresa",
+    "nombre": "Kickoff de Empresa",
+    "nombreCorto": "kickoff",
+    "titulo": "Producción audiovisual para kickoff de empresa",
+    "descripcionCorta": "Captura profesional de tu kickoff empresarial con enfoque en transmitir energía, metas y alineación de equipo a través de vídeo de impacto.",
+    "intro": "Un kickoff es el punto de arranque de iniciativas estratégicas clave donde se comunica visión, objetivos y plan de acción a toda la organización. Una producción audiovisual profesional amplifica el impacto de este momento crítico, permitiendo que colaboradores que no asisten presencialmente experimenten la energía y mensajes clave del evento. El 76% de los empleados recuerdan mejor información cuando se presenta con apoyo audiovisual, frente a solo presentación oral.",
+    "servicios": [
+      "Cobertura multicámara de conferencias y anuncios",
+      "Captura de momentos de presentación de metas",
+      "Vídeo motivation de 5-7 minutos editado",
+      "Entrevistas a líderes sobre objetivos del year",
+      "Contenido para comunicación interna post-evento"
+    ],
+    "keywords": [
+      "vídeo kickoff empresa año",
+      "producción audiovisual lanzamiento proyecto",
+      "cobertura evento arranque campañas",
+      "motivación equipo vídeo empresarial"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Cuál es la duración ideal del vídeo final del kickoff?",
+        "respuesta": "Recomendamos un vídeo principal de 5-7 minutos que sintetice los mensajes clave: objetivos anuales, metas departamentales y visión estratégica. Además, creamos 3-4 clips cortos de 60-90 segundos para compartir en redes sociales y canales de comunicación interna. Un kickoff de 6 minutos retiene la atención óptimamente mientras permite visualización completa en dispositivos móviles."
+      },
+      {
+        "pregunta": "¿Cómo capturáis los anuncios sorpresa o momentos espontáneos?",
+        "respuesta": "Mantenemos mínimo 2 cámaras con operador en todo momento, más cámaras fijas estratégicamente posicionadas. El productor de vídeo en set coordina con el equipo de evento para anticipar momentos clave y posicionar cámaras óptimamente. En postproducción, priorizamos clips genuinos no guionizados, que generan un 45% más de engagement que contenido demasiado producido."
+      },
+      {
+        "pregunta": "¿Podemos mostrar el vídeo durante el mismo evento?",
+        "respuesta": "Sí, ofrecemos servicio de edición express donde entregamos el vídeo editado en 48-72 horas tras cierre del evento, permitiendo mostrar highlights en mail enviado días después o en próxima comunicación interna. Para proyección en vivo inmediata, requeriría grabación de material preproducido con reenactuaciones, no recomendable. Lo estándar es entrega en 15-20 días para máxima calidad de edición."
+      },
+      {
+        "pregunta": "¿Incluís traducción o subtítulos si la empresa es multinacional?",
+        "respuesta": "Sí, ofrecemos subtítulos en inglés, francés o portugués por 300-400 euros según idioma. Si el evento incluye presentaciones en múltiples idiomas, recomendamos separar vídeos por idioma original (conservando audio original y subtítulos en segundo idioma). Esta opción multiidioma tiene coste adicional de 600 euros pero maximiza alcance en empresas multinacionales."
+      }
+    ],
+    "relacionadas": [
+      "video-employer-branding",
+      "contenido-redes-sociales-eventos",
+      "aftermovie-para-empresas"
+    ]
   },
   {
-        "slug": "video-explicativo",
-        "nombre": "Vídeos Explicativos",
-        "nombreCorto": "vídeo explicativo",
-        "titulo": "Vídeos explicativos y tutoriales para tu servicio o producto",
-        "descripcionCorta": "Vídeos animados que explican cómo funciona tu producto/servicio, resolviendo dudas del cliente en formato visual y dinámico.",
-        "intro": "Un vídeo explicativo bien hecho reduce tiempo de onboarding en 40% y disminuye ticket de soporte técnico. Los clientes prefieren ver cómo funciona algo mediante vídeo animado antes que leer documentación. Un vídeo explicativo de 2-3 minutos posicionado en YouTube, tu web o en emails de onboarding es un activo que genera valor constantemente reduciendo fricción en el viaje del cliente.",
-        "servicios": [
-                "Guiones y storyboarding",
-                "Animaciones explicativas",
-                "Locuciones profesionales en español/inglés",
-                "Diseño visual coherente con tu marca",
-                "Vídeos subtitulados en múltiples idiomas"
-        ],
-        "keywords": [
-                "vídeo tutorial explicativo",
-                "animación explicativa servicio",
-                "vídeo how-to producto",
-                "vídeo educativo onboarding"
-        ],
-        "faq": [
-                {
-                          "pregunta": "¿Cuánto cuesta un vídeo explicativo?",
-                          "respuesta": "Un vídeo explicativo de 2-3 minutos con animaciones básicas cuesta entre 1.200-2.000 euros. Con animaciones más complejas o motion graphics avanzado, 2.500-4.000 euros. El coste incluye guión, storyboard, animación completa, locución profesional y subtítulos. Proyectos de múltiples vídeos ofrecen descuentos de 15-20% (3+ vídeos)."
-                },
-                {
-                          "pregunta": "¿Cuál es el proceso creativo?",
-                          "respuesta": "1. Sesión de brief (entender producto/audiencia). 2. Desarrollo de guión (3-5 revisiones). 3. Storyboard visual. 4. Animatic (preview animado del guión). 5. Animación completa. 6. Revisión y ajustes finales. 7. Entrega de archivos Master + versiones optimizadas. Duración total: 4-6 semanas. Proyectos acelerados disponibles en 2-3 semanas con 15% coste adicional."
-                },
-                {
-                          "pregunta": "¿Qué estilos de animación ofrecéis?",
-                          "respuesta": "Whiteboard/dibujado: simplista, educativo. Motion graphics: dinámico, corporativo. Ilustración animada: creativo, atractivo. Animación 3D: impactante, moderno. Mezcla de estilos: versatilidad visual. Cada estilo tiene impacto emocional diferente. Recomendamos motion graphics para profesionales y content corporativo, ilustración para audiencia masiva."
-                },
-                {
-                          "pregunta": "¿Incluís distribución del vídeo?",
-                          "respuesta": "Incluimos publicación en YouTube (con SEO básico), optimización para web, y envío para integración en tu plataforma. No incluye publicidad pagada (Google Ads, YouTube Ads), pero ofrecemos asesoramiento sobre presupuesto de promoción recomendado. Un vídeo explicativo de calidad con presupuesto de promoción de 300-500 euros genera típicamente 2.000-5.000 visualizaciones calificadas en mes 1."
-                }
-        ],
-        "relacionadas": [
-                "animacion-3d-video",
-                "edicion-video-profesional",
-                "video-marketing"
-        ]
+    "slug": "cenas-de-empresa",
+    "nombre": "Cenas de Empresa",
+    "nombreCorto": "cena de empresa",
+    "titulo": "Producción audiovisual para cenas de empresa",
+    "descripcionCorta": "Documentación cinematográfica de cenas corporativas y eventos sociales de empresa con enfoque en atmósfera, networking y momentos memorables.",
+    "intro": "Las cenas de empresa son espacios informales donde germina auténtica cohesión y relaciones profesionales significativas. Una producción audiovisual discreta pero profesional captura estos momentos de conexión genuina sin interferir en la experiencia. Datos de Harvard Business Review muestran que el 68% de empleados valora positivamente documentar estos momentos informales, pues refuerzan sentido de pertenencia y comunidad corporativa.",
+    "servicios": [
+      "Fotografía de atmósfera y momentos sociales",
+      "Vídeo de cobertura de discursos y brindis",
+      "Fotomontaje o vídeo resumen de la velada",
+      "Galería fotográfica web con acceso privado",
+      "Clips cortos de Instagram Stories de la noche"
+    ],
+    "keywords": [
+      "vídeo cena de empresa",
+      "producción audiovisual cena corporativa",
+      "fotografía eventos cena ejecutiva",
+      "cobertura evento cena empresa"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Cuál es el presupuesto típico para documentar una cena de 100 personas?",
+        "respuesta": "Una cobertura completa con 1 fotógrafo profesional y 1 operador de vídeo oscila entre 1.200 y 2.000 euros. Si deseas dos fotógrafos para mayor cobertura de detalles, suma otros 600 euros. Estos precios incluyen galería fotográfica editada y vídeo resumen de 2-3 minutos. Entregas estándar en 10 días hábiles desde cierre del evento."
+      },
+      {
+        "pregunta": "¿Cómo trabajáis en espacios con poca iluminación, típicos de cenas?",
+        "respuesta": "Usamos equipos de cámara de alta sensibilidad ISO para capturar detalles incluso con iluminación tenue, combinados con luces LED portátiles direccionables que no resultan invasivas. Para fotografía, empleamos lentes luminosos f/2.8 o superior. Durante edición, aplicamos corrección de color y ajustes de iluminación avanzados. El resultado es imágenes claras y profesionales a pesar de ambiente cinematográfico oscuro."
+      },
+      {
+        "pregunta": "¿Incluís la música ambiental de fondo en el vídeo?",
+        "respuesta": "El vídeo resumen incluye música libre de derechos seleccionada durante edición. Si prefieres música específica con derechos de compositor, gestionamos la licencia (coste de 150-400 euros según canción). Para garantizar que la música no sea demasiado intrusiva en vídeo de cena, la balanceamos sutilmente para que destaque la conversación y ambiente genuino del evento."
+      },
+      {
+        "pregunta": "¿Podemos solicitar que no salgan ciertos asistentes en fotos o vídeo?",
+        "respuesta": "Absolutamente. Recopilamos una lista de exclusión antes del evento e instruimos al fotógrafo y operador a respetar estas restricciones. Si alguien pide no aparecer durante el evento, respetamos la solicitud inmediatamente. Todo esto está cubierto por políticas RGPD que comunicamos con transparencia. Entregamos una galería web donde el cliente también puede solicitar borrado de fotos específicas antes de publicación."
+      }
+    ],
+    "relacionadas": [
+      "fotografo-eventos-corporativos",
+      "contenido-redes-sociales-eventos",
+      "fotografia-corporativa"
+    ]
   },
   {
-        "slug": "video-empresa",
-        "nombre": "Vídeo Corporativo",
-        "nombreCorto": "vídeo corporativo",
-        "titulo": "Vídeos corporativos: Presentación de tu empresa",
-        "descripcionCorta": "Vídeos que comunican la identidad, valores y visión de tu empresa a empleados, clientes y stakeholders.",
-        "intro": "Un vídeo corporativo impactante en tu web, LinkedIn o sala de espera comunica profesionalidad, cultura y diferencial competitivo en segundos. Las empresas con vídeos corporativos son percibidas como 1.4x más profesionales versus quienes no tienen vídeo. Un vídeo de 1-2 minutos de calidad sirve durante años como herramienta de atracción de talento, credibilidad ante clientes y narrativa de marca.",
-        "servicios": [
-                "Vídeo de presentación de empresa",
-                "Vídeos de cultura y valores",
-                "Testimonios de empleados/clientes",
-                "Vídeos de responsabilidad social",
-                "Documental corporativo"
-        ],
-        "keywords": [
-                "vídeo corporativo empresa presentación",
-                "producción audiovisual corporativa",
-                "vídeo identidad marca corporativa",
-                "documental empresa cultura"
-        ],
-        "faq": [
-                {
-                          "pregunta": "¿Qué duración ideal para un vídeo corporativo?",
-                          "respuesta": "Presentación de empresa en web/LinkedIn: 60-90 segundos. Presentación a inversores/socios: 3-5 minutos. Documental de cultura interna: 8-15 minutos. Vídeo para sala de espera: loop de 1-3 minutos. La duración depende del contexto y audiencia. Recomendamos tener múltiples versiones: teaser (30s), versión web (90s), versión completa (3-5 min)."
-                },
-                {
-                          "pregunta": "¿Incluís entrevistas a empleados?",
-                          "respuesta": "Sí, realizamos entrevistas de empleados/clientes para testimonios auténticos. Preparamos preguntas, dirigimos entrevistas, y editamos best moments. Las entrevistas son más creíbles que scripting corporativo. Incluimos 3-5 entrevistas en paquete corporativo estándar. Honorarios de participantes/empleados corren a cargo del cliente si aplica."
-                },
-                {
-                          "pregunta": "¿Cuántos días de rodaje requiere un vídeo corporativo?",
-                          "respuesta": "Un vídeo corporativo típico requiere 2-4 días de rodaje: día 1 en oficina (espacios, equipo). Día 2-3 en terreno/clientes (si aplica). El post-producción (edición, color, sonido) toma 3-4 semanas. Presupuesto total está entre 3.500-7.000 euros según complejidad de localizaciones y entrevistas."
-                },
-                {
-                          "pregunta": "¿Cuál es el retorno de un vídeo corporativo?",
-                          "respuesta": "Difícil de medir directamente pero: mejora percepción de marca (70% de viewers), atrae candidatos de calidad (25% más aplicaciones), genera confianza con clientes/inversores. Un vídeo de 60 segundos en web aumenta tiempo de permanencia en página 2.6 minutos, reduciendo bounce rate. Vídeos corporativos siguen generando valor años después de producción, justificando la inversión inicial."
-                }
-        ],
-        "relacionadas": [
-                "video-employer-branding",
-                "video-marketing",
-                "produccion-audiovisual"
-        ]
+    "slug": "fiestas-de-empresa",
+    "nombre": "Fiestas de Empresa",
+    "nombreCorto": "fiesta de empresa",
+    "titulo": "Producción audiovisual para fiestas de empresa",
+    "descripcionCorta": "Captura festiva y dinámica de celebraciones corporativas con cobertura de ambiente, interacciones y momentos memorables en formato audiovisual listo para compartir.",
+    "intro": "Las fiestas de empresa son celebraciones donde aflora la verdadera cultura de equipo y donde se crean recuerdos compartidos que trascienden la formalidad laboral. Una producción audiovisual captura la energía, diversidad y autenticidad de estos momentos festivos, generando contenido de alto valor emocional para comunicaciones internas y externas. Estudios de Glassdoor indican que el 81% de empleados percibe que una empresa que celebra logros conjuntamente tiene cultura corporativa más saludable.",
+    "servicios": [
+      "Cobertura videográfica de la fiesta completa",
+      "Fotografía dinámica de grupos y momentos",
+      "Vídeo resumen festivo de 3-5 minutos",
+      "Fotomontaje con música para redes sociales",
+      "Hashtag compilado e historias de Instagram"
+    ],
+    "keywords": [
+      "vídeo fiesta de empresa",
+      "producción audiovisual fiesta corporativa",
+      "cobertura evento fiesta equipo",
+      "contenido redes sociales fiesta empresa"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Necesitamos fotógrafos y operadores de vídeo o uno cubre ambos?",
+        "respuesta": "Recomendamos equipo separado: mínimo 1 fotógrafo y 1 operador de vídeo para fiestas de 50+ personas. Si la fiesta es pequeña (hasta 30 personas) un profesional versátil puede combinar ambas disciplinas. Para fiestas de 200+ asistentes, aconsejamos 2 fotógrafos y 1 operador de vídeo. El ratio típico es 1 profesional por cada 100-150 personas para cobertura integral."
+      },
+      {
+        "pregunta": "¿Cómo manejamos la privacidad y dónde almacenamos las imágenes?",
+        "respuesta": "Solicitamos consentimiento informado al inicio del evento para fotografía y vídeo, documentado en formato RGPD compliant. Las imágenes se almacenan en servidor seguro encriptado con acceso restringido. Entregamos galería web privada con contraseña donde solo asistentes y empresa pueden ver/descargar. Conservamos archivos Master durante 2 años por si solicitas ediciones futuras."
+      },
+      {
+        "pregunta": "¿Puedo controlar qué aparece en redes sociales antes de publicarse?",
+        "respuesta": "Por supuesto. Entregamos la galería fotográfica completa y clips de vídeo sin publicar. Tú seleccionas qué contenido deseas que compartamos en redes sociales corporativas. Este proceso toma 3-5 días laborales tras entrega inicial. Si prefieres publicar tú mismo el contenido, te lo proporcionamos optimizado y listo para cada plataforma."
+      },
+      {
+        "pregunta": "¿Cuántos vídeos cortos distintos genera un evento de una noche?",
+        "respuesta": "De una cobertura típica de 4-5 horas generamos 8-12 clips cortos de 15-45 segundos diseñados específicamente para Instagram, TikTok, LinkedIn y WhatsApp business. Cada clip está editado con transiciones, música y gráficos sobre fondo. Esto permite publicar contenido regularmente en las 2-3 semanas posteriores al evento, manteniendo el buzz y ampliando alcance de la celebración."
+      }
+    ],
+    "relacionadas": [
+      "contenido-redes-sociales-eventos",
+      "fotografo-eventos-corporativos",
+      "video-recap-evento"
+    ]
   },
   {
-        "slug": "grabacion-con-dron",
-        "nombre": "Grabación con Dron",
-        "nombreCorto": "vídeo dron",
-        "titulo": "Grabación aérea con drones para vídeos empresariales",
-        "descripcionCorta": "Tomas aéreas espectaculares con drones para mostrar ubicaciones, eventos y proyectos desde perspectiva única.",
-        "intro": "Las tomas aéreas añaden valor cinematográfico y perspectiva diferencial a cualquier producción. Un dron profesional captura panorámicas imposibles desde tierra, mostrando escala, belleza y contexto de tu ubicación, evento o proyecto. Las tomas con dron generan 35% más shares en redes sociales vs. vídeos sin dron. Nuestros pilotos certificados garantizan seguridad, legalidad y composición cinemática.",
-        "servicios": [
-                "Grabación aérea multicámara",
-                "Tomas panorámicas y cinematic",
-                "Montaje de secuencias aéreas",
-                "Estabilización y color grading",
-                "Obtención de permisos AESA"
-        ],
-        "keywords": [
-                "vídeo dron empresarial",
-                "grabación aérea dron Spain",
-                "tomas dron evento corporativo",
-                "cinematografía aérea producción"
-        ],
-        "faq": [
-                {
-                          "pregunta": "¿Necesitáis permisos especiales para grabar con dron?",
-                          "respuesta": "Sí, requerimos permisos AESA (Agencia Estatal de Seguridad Aérea). Solicitamos y gestionamos todos los permisos (incluido NOTAM si es necesario). El proceso toma 10-15 días desde información del proyecto. Costes administrativos están entre 200-500 euros según complejidad. Nuestros pilotos están certificados y póliza de seguro incluida."
-                },
-                {
-                          "pregunta": "¿Cuál es el coste adicional de añadir dron a una producción?",
-                          "respuesta": "Grabación con dron (4 horas): 1.200 euros. Tomas aéreas específicas (medio día): 800 euros. Incluye piloto certificado, equipo DJI profesional, edición de secuencias aéreas básica. Para edición más compleja con color grading/efectos especiales, +300-600 euros adicionales. Presupuestos ajustados por proyecto y complejidad."
-                },
-                {
-                          "pregunta": "¿Qué tipo de secuencias aéreas funcionan mejor?",
-                          "respuesta": "Tomas panorámicas de ubicación/evento (impacto visual). Seguimiento de personas/vehículos en movimiento (dinámico). Tomas de transición entre escenas (cinemática). Establecimientos de contexto geográfico (escala). Evitamos movimientos bruscos o desorientadores que generan mareos. Técnicas clave: rise (ascenso suave), orbit (giro alrededor objeto), reveal (descubrimiento progresivo)."
-                },
-                {
-                          "pergunta": "¿Qué resolución y velocidad de fotogramas grabáis?",
-                          "respuesta": "Grabamos en 4K UHD (3840x2160) a 24/25fps (cine) o 60fps (slow-motion). Codificador H.265 para mejor compresión. Todos los datos se transfieren sin pérdida a archivos Master. 1 hora de grabación = 150-200GB según configuración. Entregamos archivos Master + proxy de edición. Seguro redundante en SD cards múltiples por vuelada."
-                }
-        ],
-        "relacionadas": [
-                "produccion-audiovisual",
-                "video-empresa",
-                "edicion-video-profesional"
-        ]
+    "slug": "jornadas-corporativas",
+    "nombre": "Jornadas Corporativas",
+    "nombreCorto": "jornada corporativa",
+    "titulo": "Producción audiovisual para jornadas corporativas",
+    "descripcionCorta": "Documentación profesional de jornadas de capacitación, seminarios y encuentros temáticos con cobertura integral y contenido educativo reutilizable.",
+    "intro": "Las jornadas corporativas son espacios de aprendizaje, transferencia de conocimiento y profesionalización de equipos donde se comparten best practices y estrategias clave. Una producción audiovisual profesional amplía el alcance de estas sesiones educativas, permitiendo que colaboradores ausentes y futuras incorporaciones accedan al contenido. Datos de Training Magazine demuestran que la retención de información mejora en un 65% cuando se combina presentación oral con documentación audiovisual, versus solo sesión presencial.",
+    "servicios": [
+      "Grabación multicámara de sesiones y conferencias",
+      "Captura de presentaciones y recursos educativos",
+      "Vídeos temáticos por módulo o sesión",
+      "Material de apoyo complementario",
+      "Biblioteca de contenido para plataforma de learning"
+    ],
+    "keywords": [
+      "vídeo jornadas capacitación empresa",
+      "producción audiovisual seminario corporativo",
+      "grabación conferencias empresariales",
+      "contenido educativo audiovisual empresa"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Cómo capturáis las presentaciones en PowerPoint simultáneamente a los ponentes?",
+        "respuesta": "Utilizamos sistema de grabación dual: 1 cámara en ponente y 1 feed directo del sistema de proyección, sincronizados en postproducción. Esto permite mostrar tanto el rostro y lenguaje no verbal del ponente como el contenido de slides con claridad total. El sistema requiere conexión técnica previa de 30 minutos para integración con infraestructura audiovisual del recinto."
+      },
+      {
+        "pregunta": "¿Puedo separar vídeos por sesión o tema para reutilización?",
+        "respuesta": "Sí, es parte estándar del servicio. Editamos separadamente cada módulo o sesión temática, generando archivos individuales sin que pierdas continuidad global. Si la jornada tiene 4 sesiones de 1,5 horas cada una, entregas 4 vídeos independientes optimizados temáticamente. Además, entregamos el vídeo integrado completo para archivo. Indexamos todo con timestamping y metadata para búsqueda fácil."
+      },
+      {
+        "pregunta": "¿Podemos subtitular los vídeos de jornada para accesibilidad?",
+        "respuesta": "Sí, incluimos subtítulos en español dentro del presupuesto estándar, generados mediante reconocimiento automático con revisión manual (90% de precisión garantizada). Si requieres subtítulos en otros idiomas, el coste es 200-300 euros por idioma para jornadas de hasta 6 horas. La accesibilidad es fundamental en formación corporativa y recomendamos siempre incluir este servicio."
+      },
+      {
+        "pregunta": "¿Cuánto cuesta alojar los vídeos en una plataforma de learning corporativa?",
+        "respuesta": "Nuestro servicio de grabación y edición es independiente del alojamiento. Entregamos archivos Master que puedes subir a cualquier plataforma: Moodle, LinkedIn Learning, plataforma propia, etc. Si requieres infraestructura recomendada, sugerimos plataformas como Vimeo Pro (100 euros/mes) o Kaltura (desde 300 euros/mes) que garantizan streaming de calidad corporativa. Asesoramos sobre la mejor opción según tus necesidades."
+      }
+    ],
+    "relacionadas": [
+      "video-testimonial-corporativo",
+      "streaming-en-directo-corporativo",
+      "contenido-redes-sociales-eventos"
+    ]
   },
   {
-        "slug": "post-produccion",
-        "nombre": "Post-Producción",
-        "nombreCorto": "edición vídeo",
-        "titulo": "Edición de vídeo y post-producción profesional",
-        "descripcionCorta": "Edición creativa, color grading, sonido y efectos visuales para transformar material bruto en vídeos de impacto.",
-        "intro": "La post-producción es donde el material bruto se convierte en arte. Un buen editor es capaz de transformar horas de grabación en minutos de impacto emocional, usando ritmo, música, color y sonido para guiar al espectador. Nuestros editores especializados en video corporativo comprenden narrativa de marca y generan contenido que comunica y conecta. La calidad de edición define la percepción de profesionalismo de tu producción.",
-        "servicios": [
-                "Edición creativa y montaje",
-                "Color grading y corrección",
-                "Sound design y mezcla de audio",
-                "Motion graphics y animaciones",
-                "Efectos visuales (VFX)"
-        ],
-        "keywords": [
-                "edición vídeo profesional",
-                "color grading cinematográfico",
-                "sound design audio profesional",
-                "motion graphics animación video"
-        ],
-        "faq": [
-                {
-                          "pregunta": "¿Cuánto tarda la edición de un vídeo?",
-                          "respuesta": "Edición simple (cortes básicos, música): 2-4 días. Edición estándar (transiciones, color, sonido): 5-10 días. Edición compleja (animaciones, VFX): 10-20 días. Incluye 2-3 rondas de revisión. Timelines acelerados en 48h disponibles con coste +30%. La duración depende material grabado, complejidad y cantidad de revisiones solicitadas."
-                },
-                {
-                          "pregunta": "¿Podéis hacer corrección de color cinematográfica?",
-                          "respuesta": "Sí, incluimos color grading estándar en cualquier edición. Color grading cinematográfica avanzada (LUT personalizados, match color entre cámaras, look fotográfico): +800-1.500 euros según ambición. Nuestros coloristas utilizan DaVinci Resolve con monitores calibrados para garantizar color consistente en todas las plataformas de visualización."
-                },
-                {
-                          "pregunta": "¿Incluís música original o debo proporcionar?",
-                          "respuesta": "Incluimos música libre de derechos de catálogos profesionales (Epidemic Sound, AudioJungle) seleccionada a medida de tu vídeo. Si prefieres música original compuesta, coste adicional de 600-1.500 euros según complejidad. Si tienes música con derechos específica, gestionamos licencias (200-800 euros típicamente). Recomendamos música libre de derechos para máxima flexibilidad de distribución."
-                },
-                {
-                          "pregunta": "¿Incluís sonido envolvente o estéreo surround?",
-                          "respuesta": "Incluimos mezcla estéreo profesional (izquierda-derecha). Sonido surround 5.1 está disponible para +600 euros (cines, salas de eventos). Para web/YouTube, mezcla estéreo es suficiente. Incluimos subtítulos quemados (burnt-in) o archivos SRT separados para accesibilidad. Audio descriptivo en inglés disponible a solicitud (+400 euros)."
-                }
-        ],
-        "relacionadas": [
-                "edicion-video-profesional",
-                "animacion-3d-video",
-                "color-grading"
-        ]
+    "slug": "retiros-de-empresa",
+    "nombre": "Retiros de Empresa",
+    "nombreCorto": "retiro de empresa",
+    "titulo": "Producción audiovisual para retiros de empresa",
+    "descripcionCorta": "Cobertura integral de retiros corporativos multi-día con documentación cinematográfica que capture estrategia, cohesión y transformación de equipos.",
+    "intro": "Los retiros de empresa son eventos inmersivos de varios días donde equipos ejecutivos diseñan estrategia, resuelven desafíos complejos y fortalecen dinámicas de liderazgo en ambiente alejado del día a día. Una producción audiovisual profesional documenta estos momentos transformadores, generando un archivo cinematográfico de la experiencia que refuerza la memoria colectiva y el impacto de decisiones tomadas. Según datos de CEB, el 73% de ejecutivos que participan en retiros bien documentados audiovisualmente refuerzan el sentido de propósito corporativo.",
+    "servicios": [
+      "Cobertura completa del retiro multidia en destino",
+      "Vídeo documental cinematográfico 7-10 minutos",
+      "Entrevistas en profundidad a líderes clave",
+      "Fotografía de ambiente, dinámicas y momentos",
+      "Aftermovie motivacional con music y color"
+    ],
+    "keywords": [
+      "vídeo retiro ejecutivo empresa",
+      "producción audiovisual retiro corporativo",
+      "documental retiro liderazgo",
+      "cobertura retiro estratégico empresa"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Cuántos profesionales necesitáis para un retiro de 3 días?",
+        "respuesta": "Para retiro de 20-40 ejecutivos recomendamos equipo de 3 profesionales mínimo: 1 operador de cámara, 1 fotógrafo, 1 productor/director que coordina narrativa. Esto asegura captura continua durante 8-10 horas diarias de actividades. Presupuesto: entre 4.500 y 7.000 euros dependiendo si viaje a destino está incluido. Si el retiro es internacional, suma gastos de desplazamiento y alojamiento del equipo."
+      },
+      {
+        "pregunta": "¿Cómo documentáis sesiones confidenciales o privadas?",
+        "respuesta": "Establecemos límites claros antes del retiro: identificamos áreas y horarios donde no se permite grabación por confidencialidad estratégica. El equipo respeta estos límites estrictamente. Capturamos sesiones abiertas, dinámicas de grupo, momentos de interacción y entrevistas acordadas previamente. Aproximadamente el 70% del tiempo es grabable en un retiro típico, permitiendo documentación integral sin comprometer confidencialidad."
+      },
+      {
+        "pregunta": "¿Entregáis el documental final completo en una sola pieza o versiones temáticas?",
+        "respuesta": "Entregamos ambas opciones: el documental integrado de 8-10 minutos que cuenta la historia completa del retiro, más 2-3 vídeos temáticos de 3-4 minutos enfocados en ejes específicos (estrategia, cohesión, transformación). Esta estructura permite máxima flexibilidad para usar en comunicaciones internas, presentación a board o bancos de inversión. Todo en 4K y color grading cinematográfico."
+      },
+      {
+        "pregunta": "¿Cuál es el ROI típico de documentar un retiro ejecutivo?",
+        "respuesta": "El vídeo del retiro genera 4-6 usos secundarios con alto ROI: comunicación a accionistas, material para reclutamiento de talento, contenido de cultura en web corporativa, formación para nuevos ejecutivos, y presentación a stakeholders. Estudios internos muestran que un retiro documentado audiovisualmente amplifica su impacto por un factor de 3-5x en términos de retención de mensaje y visibilidad de decisiones. La inversión de 5.000-7.000 euros típicamente genera 15.000-25.000 euros de valor en contenido reutilizable."
+      }
+    ],
+    "relacionadas": [
+      "aftermovie-para-empresas",
+      "video-employer-branding",
+      "grabacion-con-dron-eventos"
+    ]
+  },
+  {
+    "slug": "aftermovie-para-empresas",
+    "nombre": "Aftermovie para Empresas",
+    "nombreCorto": "aftermovie",
+    "titulo": "Producción de aftermovie para eventos corporativos",
+    "descripcionCorta": "Montaje audiovisual dinámico y emotivo que captura la esencia de tu evento corporativo en formato vídeo de alto impacto listo para difusión masiva.",
+    "intro": "Un aftermovie es el resumen cinematográfico de un evento, editado con ritmo visual dinámico y musical que comunica atmósfera, logros y energía del encuentro. Es el formato ideal para ampliar alcance del evento más allá de asistentes presenciales, permitiendo que colaboradores remotos, clientes e inversionistas experimenten el evento virtualmente. El 94% de empresas que invierten en aftermovie reportan mayor engagement en redes sociales y comunicación interna posterior al evento, comparado con comunicación textual únicamente.",
+    "servicios": [
+      "Selección y edición de mejores clips del evento",
+      "Color grading y sincronización con música",
+      "Gráficos de presentación y transiciones dinámicas",
+      "Múltiples versiones: 16:9, cuadrado, vertical",
+      "Optimización para distribución multi-plataforma"
+    ],
+    "keywords": [
+      "aftermovie evento empresa España",
+      "producción vídeo resumen evento corporativo",
+      "edición aftermovie profesional",
+      "montaje vídeo evento empresa"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Cuál es la duración ideal de un aftermovie?",
+        "respuesta": "La duración óptima es 3-5 minutos para máxima visualización completa y virabilidad en redes sociales. Un aftermovie de 3 minutos tiene 70% más probabilidad de ser visualizado completamente que uno de 7 minutos. Recomendamos un aftermovie principal de 4 minutos más 4-5 clips cortos de 30-60 segundos para distribución en Instagram Reels, TikTok y LinkedIn. Este combo garantiza máximo alcance multicanal."
+      },
+      {
+        "pregunta": "¿Cómo seleccionáis los clips más impactantes si grabáis 40+ horas?",
+        "respuesta": "Nuestro editor dedica 10-15 horas a revisar y catalogar material bruto, identificando momentos de máximo impacto emocional, dinamismo visual y relevancia narrativa. Creamos un storyboard donde mapeamos la estructura temporal del aftermovie: inicio impactante, desarrollo de narrativa, climax emocional, cierre memorable. Cada clip se selecciona por criterio artístico estricto, no solo por duración. El resultado es aftermovie intenso y memorable."
+      },
+      {
+        "pregunta": "¿Puedo especificar puntos de vista o momentos que quiero destacar?",
+        "respuesta": "Absolutamente. Proporcionamos formulario pre-edición donde indicas momentos clave a priorizar, personas VIP a destacar, logros a enfatizar y tono general deseado (corporativo formal vs. dinámico y festivo). Nuestro editor integra estas preferencias en storyboard. Típicamente hacemos 2 rondas de revisión donde puedes solicitar cambios significativos. Ediciones adicionales tienen coste de 300 euros por hora de trabajo."
+      },
+      {
+        "pregunta": "¿Qué música recomendáis para aftermovie corporativo?",
+        "respuesta": "Recomendamos música libre de derechos dinámico pero profesional (sin exceso de sintetizadores que suenen artificiales). Nuestro editor tiene acceso a librerías premium con 50.000+ pistas. Seleccionamos múltiples opciones musicales para que apruebes antes de edición final. Si prefieres música original compuesta, el coste es 800-1.200 euros para 4 minutos. La música correcta eleva un aftermovie de bueno a extraordinario."
+      }
+    ],
+    "relacionadas": [
+      "video-recap-evento",
+      "contenido-redes-sociales-eventos",
+      "grabacion-con-dron-eventos"
+    ]
+  },
+  {
+    "slug": "fotografo-eventos-corporativos",
+    "nombre": "Fotografo Eventos Corporativos",
+    "nombreCorto": "fotografía corporativa",
+    "titulo": "Servicio de fotografo profesional para eventos corporativos",
+    "descripcionCorta": "Cobertura fotográfica profesional integral de eventos corporativos con entrega de galería editada, optimizada para múltiples usos comunicacionales.",
+    "intro": "La fotografía corporativa es documentación visual que captura momentos clave, emociones genuinas y dinámicas de interacción de tus eventos. Un fotógrafo profesional anticipadamente permite obtener composiciones auténticas que reflejan la verdadera atmósfera del evento, sin poses forzadas. Datos de Statista muestran que el 84% de empresas utiliza fotografía corporativa como principal asset visual en reportes anuales, comunicación interna y contenido de reclutamiento, lo que demuestra centralidad de este servicio.",
+    "servicios": [
+      "Cobertura fotográfica completa del evento",
+      "Captura de detalles, ambientes e interacciones",
+      "Selección y edición profesional de 150-250 fotos",
+      "Entrega en múltiples formatos y resoluciones",
+      "Galería web con contraseña privada"
+    ],
+    "keywords": [
+      "fotógrafo evento corporativo Madrid",
+      "fotografía profesional eventos empresa",
+      "cobertura fotográfica corporativa España",
+      "servicio foto eventos ejecutivos"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Cuántas fotos entregáis típicamente?",
+        "respuesta": "De una jornada completa de 6-8 horas entregamos seleccionadas y editadas 150-250 fotografías de máxima calidad, dependiendo intensidad del evento. Esto incluye tomas de ambiente, detalles, momentos de interacción y retratos de asistentes. Si el evento es compacto (4 horas), entregamos 100-150 fotos. Todas las imágenes llegan editadas, con color corrección y optimizadas para web e impresión."
+      },
+      {
+        "pregunta": "¿Cómo funcionan los derechos de imagen de los asistentes?",
+        "respuesta": "Recopilamos consentimiento informado de asistentes para fotografía, documentado en RGPD compliant. Las fotos entregadas pueden usarse libremente por la empresa en comunicación interna, web, redes sociales y reportes. Ofrecemos galería web privada con contraseña para que solo asistentes y empresa accedan. Los derechos morales permanecen con el fotógrafo, pero los derechos de explotación son completamente tuyos."
+      },
+      {
+        "pregunta": "¿Entregan en RAW o archivo final JPEG?",
+        "respuesta": "Entregamos archivos finales editados en JPEG alta calidad (12-14 megapíxeles) y además archivos RAW sin editar para que puedas hacer retoques adicionales si lo deseas. Todos los archivos vienen organizados en carpetas temáticas con naming claro. Los RAWs incluyen metadatos EXIF completos. La mayoría de clientes trabaja directamente con JPEGs entregados, que cumplen cualquier necesidad de uso corporativo."
+      },
+      {
+        "pregunta": "¿Cuál es el coste de cobertura fotográfica para evento de 100 personas?",
+        "respuesta": "Presupuesto típico es 1.000-1.500 euros para un fotógrafo profesional durante 6-8 horas, incluida entrega de galería editada. Si requieres 2 fotógrafos para máxima cobertura, suma 600-800 euros adicionales. Estos precios incluyen galería web privada con acceso indefinido, archivos en múltiples resoluciones, y derecho de uso comercial sin restricciones. Entregas estándar en 10 días hábiles desde cierre del evento."
+      }
+    ],
+    "relacionadas": [
+      "video-recap-evento",
+      "contenido-redes-sociales-eventos",
+      "fotografia-corporativa"
+    ]
+  },
+  {
+    "slug": "video-employer-branding",
+    "nombre": "Video Employer Branding",
+    "nombreCorto": "vídeo employer branding",
+    "titulo": "Producción de vídeo para employer branding corporativo",
+    "descripcionCorta": "Vídeos auténticos que muestran cultura corporativa, valores y experiencia de trabajo para atraer y retener talento de alta calidad.",
+    "intro": "El employer branding es la estrategia de marketing interno de atracción de talento donde se comunica qué hace única y atractiva tu empresa como lugar de trabajo. Los vídeos de employer branding son el formato más efectivo para esto: permiten que candidatos experimenten visualmente la cultura, relaciones interpersonales y ambiente de trabajo. Según datos de LinkedIn Talent Solutions, las empresas con vídeos de employer branding reciben 50% más candidatos cualificados y reducen tiempo de contratación en un 25% en promedio.",
+    "servicios": [
+      "Conceptualización y guionización de narrativa corporativa",
+      "Grabación de testimonios auténticos de colaboradores",
+      "Captura de dinámicas laborales y espacios de trabajo",
+      "Edición narrativa con color grading profesional",
+      "Optimización multi-formato para LinkedIn, web, reclutamiento"
+    ],
+    "keywords": [
+      "vídeo employer branding empresa España",
+      "producción audiovisual cultura corporativa",
+      "vídeo reclutamiento talento",
+      "contenido employer branding profesional"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Cuántos testimonios de empleados necesitamos en un vídeo employer branding?",
+        "respuesta": "Recomendamos entre 3-5 testimonios auténticos de colaboradores en diferentes roles y niveles jerárquicos. Esto permite mostrar diversidad de experiencias y que candidatos se identifiquen con personas en roles similares. Cada testimonio debe durar 30-60 segundos sin sobregrabar. El equilibrio ideal es 40% testimonios + 60% cobertura de ambiente, dinámicas y detalles del espacio laboral."
+      },
+      {
+        "pregunta": "¿Cuánto tiempo toma producir un vídeo employer branding profesional?",
+        "respuesta": "El proceso completo toma 6-8 semanas: 1 semana de pre-producción y guionización, 2-3 días de grabación, 3-4 semanas de edición profesional, 1 semana de revisiones y ajustes. Esto incluye tiempo para que colaboradores se familiaricen con cámara y brinden testimonios genuinos, no ensayados. Si necesitas entrega acelerada en 4 semanas, aplicamos costo adicional del 40% y reducimos complejidad de producción."
+      },
+      {
+        "pregunta": "¿El vídeo incluye datos sobre beneficios y salario?",
+        "respuesta": "No recomendamos incluir cifras salariales específicas en vídeo, ya que dificulta actualización futura. Mejor incluir datos cualitativos: 'salario competitivo en industria', 'bonificación variable anual', 'plan de pensiones'. Sí es efectivo incluir datos sobre beneficios concretos: '25 días de vacaciones', '100% flexibilidad horaria', 'presupuesto desarrollo 1.500 euros/año por persona', etc. Estos datos específicos generan un 35% más de candidaturas cualificadas."
+      },
+      {
+        "pregunta": "¿Cada vídeo debe ser versión única o podemos reutilizar plantilla?",
+        "respuesta": "Recomendamos crear un vídeo master de 4-5 minutos con narrativa completa, más versiones acortadas temáticas de 60-90 segundos para LinkedIn Ads, web, y career pages. La plantilla visual (intro, transiciones, música) puede ser reutilizada si lanzas nuevas versiones en futuro, reduciendo costos. Aproximadamente el 30% del presupuesto de producción es reutilizable si decides crear varios vídeos employer branding en diferentes momentos."
+      }
+    ],
+    "relacionadas": [
+      "video-testimonial-corporativo",
+      "contenido-redes-sociales-eventos",
+      "fotografia-corporativa"
+    ]
+  },
+  {
+    "slug": "grabacion-con-dron-eventos",
+    "nombre": "Grabacion con Dron Eventos",
+    "nombreCorto": "grabación con dron",
+    "titulo": "Servicio de grabación con dron para eventos corporativos",
+    "descripcionCorta": "Captura aérea profesional con dron que proporciona perspectivas únicas y cinematográficas de tus eventos corporativos y espacios.",
+    "intro": "La grabación con dron añade dimensión cinematográfica a tu producción audiovisual, permitiendo perspectivas aéreas que no son posibles con cámara tradicional. Esto es especialmente valioso para eventos al aire libre, espacios amplios o ubicaciones de interés geográfico. Los drones profesionales capturan video 4K estable con gimbal de 3 ejes, generando material de calidad broadcast. Datos de Adobe muestran que vídeos con planos aéreos generan 66% más engagement que vídeos únicamente terrestres.",
+    "servicios": [
+      "Grabación aérea en 4K con gimbal profesional",
+      "Tomas de establecimiento y transiciones aéreas",
+      "Seguimiento de sujetos con vuelo dinámico",
+      "Integración de material aéreo con cobertura terrestre",
+      "Edición de secuencias aéreas con efectos visuales"
+    ],
+    "keywords": [
+      "dron grabación evento corporativo",
+      "vídeo aéreo evento empresa",
+      "grabación dron 4K profesional",
+      "tomas aéreas evento audiovisual"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Necesitamos autorización especial para volar dron en el evento?",
+        "respuesta": "Sí, requerimos autorización previa de la Agencia Estatal de Seguridad Aérea (AESA) si el evento es en zona con restricciones aéreas (cercana a aeropuertos, espacio urbano denso). El trámite toma 15-20 días y requiere documentación del lugar, horarios y operador certificado. Incluimos gestión completa de estos permisos en nuestro presupuesto. Si el evento es en zona rural sin restricciones evidentes, la grabación puede proceder sin trámite adicional."
+      },
+      {
+        "pregunta": "¿Cuál es la altitud máxima de vuelo permitida?",
+        "respuesta": "En España, la altitud máxima es 120 metros sobre terreno sin autorización especial. Para la mayoría de eventos, esto proporciona perspectivas aéreas más que suficientes. Si necesitas altitud mayor (hasta 500 metros en casos especiales), requiere solicitud especial a AESA con justificación. Para eventos corporativos estándar, los 120 metros ofrecen vistas espectaculares sin complejidad regulatoria adicional."
+      },
+      {
+        "pregunta": "¿Cómo aseguráis estabilidad y calidad cinematográfica del vuelo?",
+        "respuesta": "Utilizamos drones de grado broadcast (DJI Inspire 3 o similar) con gimbal de 3 ejes que estabiliza automáticamente el video incluso ante vientos moderados. Todos nuestros pilotos tienen certificación de operador profesional. Grabamos en LOG color profile para máximo rango dinámico, permitiendo color grading posterior. Las tomas son fluid y cinematográficas, con movimientos suavizados digitalmente en postproducción. Cada toma aérea se revisa mínimo 3 veces antes de entregar."
+      },
+      {
+        "pregunta": "¿Cuánto cuesta servicio de dron como complemento a producción audiovisual?",
+        "respuesta": "El servicio de grabación con dron tiene coste de 1.500-2.500 euros como complemento a cobertura tradicional, dependiendo complejidad de vuelos y duración. Esto incluye operador certificado, equipo profesional, 4-6 minutos de grabación utilizable, e integración del material aéreo en edición final. Si el dron es el componente principal (evento pequeño con dron como único video), el presupuesto mínimo es 1.200 euros. Para viajes a ubicaciones de destino, suma gastos de desplazamiento."
+      }
+    ],
+    "relacionadas": [
+      "aftermovie-para-empresas",
+      "viajes-de-empresa",
+      "video-recap-evento"
+    ]
+  },
+  {
+    "slug": "streaming-en-directo-corporativo",
+    "nombre": "Streaming en Directo Corporativo",
+    "nombreCorto": "streaming en directo",
+    "titulo": "Servicio de streaming en directo para eventos corporativos",
+    "descripcionCorta": "Transmisión en vivo profesional de tus eventos corporativos con producción de calidad broadcast para audiencias remotas.",
+    "intro": "El streaming en directo permite que colaboradores remotos, clientes e inversionistas participen virtualmente en eventos corporativos, amplificando alcance sin límite geográfico. Una transmisión profesional requiere múltiples cámaras, dirección de vídeo en tiempo real, gestión de audio y bitrate optimizado. Durante la pandemia, el 73% de empresas adoptó streaming corporativo y el 61% mantiene estos canales activos hoy, reconociendo valor de accesibilidad remota para participación inclusiva.",
+    "servicios": [
+      "Cobertura multicámara con switching en directo",
+      "Control de dirección de vídeo en tiempo real",
+      "Gestión profesional de audio y niveles",
+      "Transmisión a plataforma elegida (YouTube, Teams, etc)",
+      "Grabación paralela de broadcast para archivo"
+    ],
+    "keywords": [
+      "streaming eventos corporativos en directo",
+      "transmisión vivo evento empresa",
+      "vídeo en directo producción broadcast",
+      "livestream profesional evento ejecutivo"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Cuál es la calidad de resolución recomendada para streaming corporativo?",
+        "respuesta": "Recomendamos 1080p (Full HD) a 60fps como estándar porque ofrece balance entre calidad visual y ancho de banda necesario. Muchos asistentes usan conexiones 4G, donde 1080p es confiable. Si la mayoría de audiencia tiene conexión fibra/ADSL, puedes subir a 2K o 4K. Bitrate típico es 5-8 Mbps para 1080p60. Siempre recomendamos test de conexión 24 horas antes del evento."
+      },
+      {
+        "pregunta": "¿Qué ancho de banda internet necesitamos para streaming sin cortes?",
+        "respuesta": "Mínimo 10 Mbps upload dedicado para una transmisión 1080p estable con redundancia. Recomendamos 15-20 Mbps para márgenes de seguridad contra fluctuaciones. Si tienes 50+ visualizadores simultáneos, la infraestructura de internet debe ser fibra o ADSL con línea dedicada. Realizamos prueba de velocidad 48 horas antes del evento. Si internet es insuficiente, podemos usar enlace 4G profesional como respaldo, con coste adicional de 300 euros."
+      },
+      {
+        "pregunta": "¿Cuántos espectadores remotos puede soportar simultáneamente?",
+        "respuesta": "La capacidad depende de plataforma: YouTube Live soporta visualización ilimitada desde el lado plataforma. Microsoft Teams soporta hasta 10.000 participantes. Vimeo Live soporta hasta 50.000 concurrentes en plan premium. Lo limitante es tu ancho de banda upload, no visualizadores. La complejidad técnica es la misma si tienes 10 o 1.000 espectadores. Recomendamos elegir plataforma según dónde esté tu audiencia corporativa."
+      },
+      {
+        "pregunta": "¿Podéis grabar el streaming en paralelo para archivo?",
+        "respuesta": "Sí, siempre grabamos el stream en paralelo en formatos Master (ProRes 422) para crear archivo de máxima calidad. La grabación se almacena localmente en equipo de control y se entrega 24 horas después del evento. Esto permite reeditar después si es necesario, generalmente produciendo aftermovie o clips temáticos con calidad superior al broadcast en directo. La grabación paralela está incluida en el presupuesto de streaming."
+      }
+    ],
+    "relacionadas": [
+      "convenciones-de-empresa",
+      "video-recap-evento",
+      "aftermovie-para-empresas"
+    ]
+  },
+  {
+    "slug": "video-testimonial-corporativo",
+    "nombre": "Video Testimonial Corporativo",
+    "nombreCorto": "vídeo testimonial",
+    "titulo": "Producción de vídeos testimoniales para empresas",
+    "descripcionCorta": "Vídeos de testimonios auténticos de clientes, colaboradores y expertos que construyen credibilidad y confianza en tu marca.",
+    "intro": "Los testimonios en vídeo son formato de máxima credibilidad para persuasión: el 92% de consumidores confía más en recomendaciones de personas reales que en publicidad tradicional. Un vídeo testimonial bien producido muestra autenticidad, rostro, voz y emoción genuina de quien respalda tu empresa. Esto genera empatía y cercanía que no logra texto o fotografía estática. Empresas con biblioteca de 5-10 testimonios vídeo reportan aumento de 35-50% en conversiones en proceso de venta y mejora significativa en employer branding.",
+    "servicios": [
+      "Entrevistas en profundidad y guionización",
+      "Grabación cinematográfica en estudio o locación",
+      "Edición narrativa con broll contextualizador",
+      "Múltiples versiones por público objetivo",
+      "Optimización para web, LinkedIn, ventas"
+    ],
+    "keywords": [
+      "vídeo testimonial cliente empresa",
+      "producción audiovisual testimonios corporativos",
+      "grabación testimonios profesionales",
+      "vídeos recomendación cliente empresa"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Cuánto tiempo toma grabar un vídeo testimonial profesional?",
+        "respuesta": "Típicamente, la sesión de grabación dura 2-3 horas por persona: 30 minutos de setup y maquillaje, 90-120 minutos de entrevista donde hacemos múltiples tomas y ángulos. La entrevista sigue guion abierto para mantener autenticidad mientras aseguramos cubrir puntos clave. Posteriormente, editamos el testimonial a 2-3 minutos final. El proceso completo desde concepto hasta entrega es 4-5 semanas si coordinas con 3-5 testimoniales simultáneamente."
+      },
+      {
+        "pregunta": "¿Cómo garantizáis que los testimonios suenen auténticos y no guionizados?",
+        "respuesta": "No memorizamos testimonios palabra por palabra. En su lugar, el entrevistador establece diálogo conversacional mientras la cámara graba. Esto mantiene lenguaje corporal relajado y respuestas genuinas. Hacemos múltiples tomas (5-10) de cada pregunta clave, permitiendo que la persona encuentre sus propias palabras. En edición, seleccionamos tomas donde el tono es más natural y emocional. El resultado es testimonio que suena como conversación real, no discurso memorizador."
+      },
+      {
+        "pregunta": "¿Podemos usar el testimonial para múltiples propósitos (web, redes, ventas)?",
+        "respuesta": "Sí, el vídeo testimonial completo es tuyo con derechos ilimitados de explotación. Recomendamos crear múltiples versiones: versión completa 2-3 minutos para web y YouTube, versión corta 30-45 segundos para Instagram y LinkedIn, versión ultra-corta 15 segundos para publicidad digital, versión con subtítulos en inglés si es global. Gestionamos todas estas variantes en fase de edición con coste único de producción."
+      },
+      {
+        "pregunta": "¿Qué presupuesto esperar para producir 5 testimoniales?",
+        "respuesta": "El coste típico es 2.500-3.500 euros para una lote de 5 testimoniales grabados en 2 días consecutivos (eficiencia de producción). Esto incluye: pre-producción, grabación profesional en estudio, edición completa con múltiples versiones, optimizaciones para diferentes plataformas. Si los testimoniales se graban en locaciones diferentes o con actores de doblaje, suma 400 euros por persona. La inversión es extraordinaria: 5 testimoniales vídeo generan 3-5x su valor en oportunidades de venta durante los 12 meses siguientes."
+      }
+    ],
+    "relacionadas": [
+      "video-employer-branding",
+      "fotografia-corporativa",
+      "contenido-redes-sociales-eventos"
+    ]
+  },
+  {
+    "slug": "contenido-redes-sociales-eventos",
+    "nombre": "Contenido Redes Sociales Eventos",
+    "nombreCorto": "contenido redes sociales",
+    "titulo": "Producción de contenido para redes sociales de eventos",
+    "descripcionCorta": "Generación de clips, historias y posts optimizados para maximizar alcance y engagement de tus eventos corporativos en redes sociales.",
+    "intro": "El contenido de redes sociales derivado de eventos corporativos amplifica el alcance más allá de asistentes presenciales y crea buzz online que potencia percepción de tu empresa. Profesionalmente editado, con diseño visual atractivo y copywriting persuasivo, este contenido genera 5-10x más engagement que compartir vídeo bruto del evento. El 78% de empresas con estrategia coordinada de contenido post-evento reporta aumento en seguidores, alcance orgánico y mensajes de interés de stakeholders.",
+    "servicios": [
+      "Creación de 15-20 clips cortos optimizados por plataforma",
+      "Diseño de tiles gráficos y transiciones visuales",
+      "Copywriting persuasivo en español",
+      "Historias de Instagram y reels dinámicos",
+      "Calendario de publicación sugerido"
+    ],
+    "keywords": [
+      "contenido redes sociales evento corporativo",
+      "clips Instagram TikTok evento empresa",
+      "vídeos cortos redes sociales empresa",
+      "producción reels Instagram evento"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Cuántos clips diferentes generáis del material del evento?",
+        "respuesta": "De una cobertura típica de 8-10 horas de grabación bruta, producimos 15-25 clips cortos de 15-60 segundos cada uno, optimizados por plataforma. Típicamente: 5-6 reels para Instagram (vertical, 30-45 segundos), 4-5 videos cuadrados para LinkedIn (60-90 segundos), 6-8 clips ultra-cortos de 15-20 segundos para TikTok, 4-5 historias de Stories más breves. Cada clip está diseñado para máxima viralidad en su plataforma específica."
+      },
+      {
+        "pregunta": "¿Incluís edición de subtítulos y gráficos en los clips?",
+        "respuesta": "Sí, todos los clips incluyen subtítulos automáticos (con revisión manual), transiciones dinámicas y gráficas de presentación de marca. Los subtítulos son críticos: 80% de usuarios de redes sociales ven vídeos sin sonido. Agregamos también lower thirds (gráficas con nombre y rol de personas destacadas), emojis animados y animaciones de llamada a acción (CTA). El nivel de polished es profesional broadcast, no amateur."
+      },
+      {
+        "pregunta": "¿Proporcionáis calendario de publicación recomendado?",
+        "respuesta": "Sí, entregamos calendario de 3-4 semanas sugerido (publicar 1-2 clips diarios a ritmo inteligente) con horarios óptimos para cada plataforma según tu audiencia. Los mejores horarios típicamente son: LinkedIn 8-10 AM entre semana, Instagram 7-9 PM, TikTok 6-8 PM. Recomendamos además hashtags relevantes, menciones a asistentes clave y engagement tácticas. Si quieres, gestionamos publicación completa por nosotros con coste adicional de 300 euros."
+      },
+      {
+        "pregunta": "¿Qué coste tiene producción de contenido social post-evento?",
+        "respuesta": "El servicio completo de crear 20 clips optimizados con edición profesional, subtítulos, gráficos y calendario es 1.200-1.800 euros. Este es costo separado de la grabación del evento. Muchos clientes incluyen este servicio como parte del presupuesto total de producción audiovisual. ROI típico es extraordinario: 20 clips bien hechos generan 40.000-150.000 impresiones en redes en el mes siguiente al evento, traducido en visibilidad de marca invaluable."
+      }
+    ],
+    "relacionadas": [
+      "aftermovie-para-empresas",
+      "video-recap-evento",
+      "video-employer-branding"
+    ]
+  },
+  {
+    "slug": "cobertura-ferias-congresos",
+    "nombre": "Cobertura Ferias Congresos",
+    "nombreCorto": "cobertura feria",
+    "titulo": "Servicio de cobertura audiovisual para ferias y congresos",
+    "descripcionCorta": "Documentación profesional de tu participación en ferias y congresos con cobertura de stand, presentaciones y networking.",
+    "intro": "Las ferias y congresos profesionales son espacios de visibilidad y generación de leads críticos para empresas B2B. Una cobertura audiovisual profesional documenta tu presencia, capta momentos de interacción con clientes potenciales y genera contenido reutilizable para post-campaña. El 68% de asistentes a ferias reporta mayor probabilidad de negocio cuando reciben seguimiento con contenido audiovisual (vídeo o foto) del encuentro respecto a seguimiento textual únicamente.",
+    "servicios": [
+      "Cobertura fotográfica del stand y ambiente feria",
+      "Grabación de presentaciones y demostraciones",
+      "Entrevistas a visitantes y clientes potenciales",
+      "Vídeo resumen de 2-3 minutos de participación",
+      "Material para follow-up de leads post-feria"
+    ],
+    "keywords": [
+      "vídeo cobertura feria congreso",
+      "producción audiovisual evento profesional",
+      "documentación stand feria",
+      "contenido audiovisual congresos empresa"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Cómo documentáis tanto el stand como las presentaciones simultáneamente?",
+        "respuesta": "Desplegamos 2 profesionales: 1 fotógrafo de tiempo completo en el stand documentando interacciones, y 1 operador de vídeo que alterna entre cobertura de stand durante horas lentas y grabación de presentaciones durante horarios programados. Si la feria dura 3 días con múltiples presentaciones, recomendamos equipo de 3: 2 fotógrafos rotativos y 1 operador de vídeo especializado en presentaciones. El presupuesto típico es 2.000-3.500 euros para 3 días."
+      },
+      {
+        "pregunta": "¿Podemos permanecer en el stand mientras grabáis sin ser invasivos?",
+        "respuesta": "Nuestro equipo es entrenado en discreción: usamos cámaras modernas menos intrusivas que tradicionales y se posicionan de forma que documentan interacciones sin interferir. Trabajan en coordinación con tu equipo de stand para identificar momentos clave. Los visitantes típicamente no perciben presencia de camarógrafo después de primeros 30 minutos, permitiendo captura genuina de dinámicas. El resultado es documentación realista, no puesta en escena."
+      },
+      {
+        "pregunta": "¿Cómo gestionáis consentimiento de imagen de visitantes de feria?",
+        "respuesta": "Solicitamos consentimiento verbal explícito antes de grabar o fotografiar visitantes, documentado en RGPD-compliant formulario simple de firma. Ofrecemos opción de anonimizar a personas en imágenes si lo solicitan. Para uso específico de entrevistas, el visitante firma documento de cesión de derechos de imagen. Típicamente, 85-90% de visitantes acepta ser documentado. El material de visitantes anónimos se puede reutilizar sin restricciones."
+      },
+      {
+        "pregunta": "¿Cuánto tiempo tarda la entrega de vídeo resumen post-feria?",
+        "respuesta": "El vídeo resumen de 2-3 minutos está listo en 10-15 días hábiles post-feria. Incluye secuencias del stand, momentos de interacción, presentaciones clave y testimonios de visitantes seleccionados. La galería fotográfica editada se entrega en 8 días. Ambos formatos incluyen optimización para web, LinkedIn y email marketing para máxima reutilización en campaña de follow-up post-evento. Recomendamos comenzar envíos de follow-up 48 horas después de cierre de feria."
+      }
+    ],
+    "relacionadas": [
+      "video-recap-evento",
+      "fotografo-eventos-corporativos",
+      "contenido-redes-sociales-eventos"
+    ]
+  },
+  {
+    "slug": "video-recap-evento",
+    "nombre": "Video Recap Evento",
+    "nombreCorto": "vídeo recap",
+    "titulo": "Producción de vídeo recap resumen de eventos",
+    "descripcionCorta": "Vídeo de síntesis visual de tu evento que captura momentos clave en formato ágil y compartible para comunicación post-evento.",
+    "intro": "Un vídeo recap es resumen visual comprimido que sintetiza los puntos clave de un evento en 2-3 minutos sin perder impacto narrativo. Es formato ideal para comunicación post-evento porque es consumible en dispositivos móviles y genera 3-4x más engagement que vídeo largo. El 89% de colaboradores que reciben vídeo recap post-evento reportan mayor retención de mensajes clave comparado con solo asistencia presencial, lo que demuestra valor de este contenido para amplificar impacto del evento.",
+    "servicios": [
+      "Selección de clips narrativos más impactantes",
+      "Edición dinámico con transiciones rápidas",
+      "Sincronización musical con ritmo acelerado",
+      "Gráficas de presentación de datos y cifras",
+      "Múltiples duraciones (90 seg, 3 min, 5 min)"
+    ],
+    "keywords": [
+      "vídeo recap evento corporativo",
+      "resumen audiovisual evento empresa",
+      "síntesis vídeo evento profesional",
+      "edición dinámica recap evento"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Cuál es la duración óptima de un vídeo recap?",
+        "respuesta": "Recomendamos 2-3 minutos como duración principal, con versiones adicionales de 90 segundos y 5 minutos. El vídeo de 2-3 minutos tiene tasa de visualización completa del 85%, mientras que un vídeo de 7+ minutos cae a 45%. Para LinkedIn y redes sociales, la versión de 90 segundos es ideal. La duración de 5 minutos es para visualización en email corporativo y comunicación interna, donde tienes audiencia cautiva."
+      },
+      {
+        "pregunta": "¿Cómo diferenciáis un recap de un aftermovie?",
+        "respuesta": "El recap es síntesis ágil con ritmo acelerado, música dinámica y cortes rápidos para mantener energía continua. El aftermovie es narrativa cinematográfica con pausas deliberadas, music como elemento narrativo y composición más cuidada de cada plano. Un recap es 'rápido y punchy', un aftermovie es 'cuidado y emocional'. Usa recap para comunicación interna y redes (consumo rápido), aftermovie para distribución externa y archivo corporativo."
+      },
+      {
+        "pregunta": "¿Qué datos o cifras incluís en un vídeo recap?",
+        "respuesta": "Incluimos datos cuantitativos clave del evento: número de asistentes, ciudades representadas, keynotes principales, objetivos logrados si aplica. Presentamos estos datos con gráficas visuales animadas para máximo impacto. Por ejemplo: '250 asistentes de 15 países' aparece con animación de mapa, o 'reducción de 30% en tiempo de proceso' con gráfica de barras animada. Estos datos hacen el recap más informativo y memorable que meramente emocional."
+      },
+      {
+        "pregunta": "¿Cuál es el coste de producción de un vídeo recap profesional?",
+        "respuesta": "Si el recap se produce como parte de servicios de cobertura general del evento, el coste adicional es 600-900 euros para edición especializada. Si se encarga aparte, el mínimo es 1.200 euros porque requiere sesión de concepto, storyboard y edición dedicada. La inversión es baja comparada con valor generado: un recap bien hecho es visualizado 10.000-50.000 veces en redes y comunicación interna, amplificando exponencialmente alcance del evento original."
+      }
+    ],
+    "relacionadas": [
+      "aftermovie-para-empresas",
+      "contenido-redes-sociales-eventos",
+      "video-testimonial-corporativo"
+    ]
+  },
+  {
+    "slug": "fotografia-corporativa",
+    "nombre": "Fotografia Corporativa",
+    "nombreCorto": "fotografía corporativa",
+    "titulo": "Servicio de fotografía corporativa profesional",
+    "descripcionCorta": "Fotografía profesional de retrato corporativo, equipo directivo y contenido visual para comunicaciones empresariales de alto nivel.",
+    "intro": "La fotografía corporativa de calidad es acervo visual fundamental para cualquier empresa profesional: se usa en perfiles ejecutivos, comunicación de liderazgo, reportes anuales y material de reclutamiento. Fotografías profesionales comunican credibilidad, confianza y seriedad que fotos de smartphone no logran. Datos de LinkedIn muestran que perfiles de ejecutivos con fotografía profesional reciben 21x más visualizaciones y 9x más mensajes de conexión comparado con perfiles sin foto de calidad.",
+    "servicios": [
+      "Sesión de retrato corporativo individual",
+      "Fotografía de equipo directivo grupal",
+      "Fotobuscador de candidatos para empresa",
+      "Retratos para perfiles LinkedIn optimizados",
+      "Galería web de headshots corporativos"
+    ],
+    "keywords": [
+      "fotografía corporativa profesional Madrid",
+      "retrato ejecutivo empresa",
+      "fotobuscador candidatos corporativo",
+      "fotografía perfil LinkedIn profesional"
+    ],
+    "faq": [
+      {
+        "pregunta": "¿Cuánto tiempo dura una sesión de retrato corporativo?",
+        "respuesta": "Una sesión típica de retrato individual dura 30-45 minutos, tiempo suficiente para varias cambios de ropa y fondos. Entregamos 10-15 fotos retocadas por persona. Si es fotobuscador con múltiples personas (5-10 ejecutivos), la sesión dura 3-4 horas, con 20-30 minutos por persona garantizando que nadie se siente apresurado. El fotógrafo se adapta al ritmo de la persona para obtener expresiones naturales."
+      },
+      {
+        "pregunta": "¿Qué incluye retoque profesional de fotografías corporativas?",
+        "respuesta": "Incluimos: corrección de color de piel, suavizado de piel leve (sin parecer artificial), corrección de luminosidad y contraste, alineación de ojos, y limpieza de imperfecciones menores como granitos o ojeras pronunciadas. No hacemos cambios estructurales (adelgazar, cambiar forma de nariz, etc). El objetivo es mejorar sin alterar identidad. Todas las fotos se estandarizan a mismo nivel de retoque para consistencia visual en perfiles ejecutivos."
+      },
+      {
+        "pregunta": "¿Cómo optimizáis retratos específicamente para LinkedIn?",
+        "respuesta": "Creamos versiones optimizadas de 300x300px para fotos de perfil LinkedIn, con fondo neutral que contraste con nombre de usuario, composición que favorezca visualización en pequeño tamaño, y expresión de confianza profesional. LinkedIn recomienda fotos con 75% de cara, luz natural y ropa profesional. Además, creamos veriones 1:1 (cuadradas) para redes corporativas. El fotógrafo asesora durante sesión sobre qué composiciones funcionarán mejor en pequeño formato."
+      },
+      {
+        "pregunta": "¿Cuál es el presupuesto para fotografía corporativa de equipo ejecutivo?",
+        "respuesta": "Retrato individual profesional cuesta 350-500 euros. Fotobuscador de 8-10 ejecutivos cuesta 2.000-2.800 euros (incluye sesión de 3-4 horas, 10-15 fotos retocadas por persona, optimización para diferentes usos). Si necesitas además retratos grupales de junta directiva, suma 600-900 euros. Estos precios incluyen archivos de alta resolución con derechos de uso corporativo ilimitado, entregados en carpeta digital organizada."
+      }
+    ],
+    "relacionadas": [
+      "video-employer-branding",
+      "fotografo-eventos-corporativos",
+      "video-testimonial-corporativo"
+    ]
   }
-]Page_DownPage_DownPage_Downoffsites-de-empresa
+]
