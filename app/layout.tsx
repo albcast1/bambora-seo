@@ -3,8 +3,8 @@ import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.bambora.agency'),
-  title: 'BAMBORA — Producción audiovisual para eventos corporativos',
-  description: 'Producción audiovisual de alta calidad para eventos corporativos en toda España.',
+  title: 'BAMBORA \u2014 Producci\u00f3n audiovisual para eventos corporativos',
+  description: 'Producci\u00f3n audiovisual de alta calidad para eventos corporativos en toda Espa\u00f1a.',
 };
 
 export default function RootLayout({
@@ -15,20 +15,24 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body>
-        <nav className="nav">
+        <div className="grain"></div>
+
+        <nav>
           <div className="nav-logo">
             <a href="/">Bambora</a>
           </div>
           <div className="nav-right">
             <a href="/#proyectos">Proyectos</a>
             <a href="mailto:hello@bambora.agency">Contacto</a>
-            <span className="nav-dot"></span>
+            <div className="nav-dot"></div>
           </div>
         </nav>
+
         {children}
-        <footer className="footer">
-          <div className="footer-brand">Bambora © 2026</div>
-          <div className="footer-loc">Toda España</div>
+
+        <footer>
+          <div className="footer-brand">Bambora \u00a9 2026</div>
+          <div className="footer-loc">Toda Espa\u00f1a</div>
         </footer>
       </body>
     </html>
