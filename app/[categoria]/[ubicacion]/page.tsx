@@ -14,7 +14,6 @@ import {
 
 const SITE_URL = 'https://www.bambora.agency';
 
-// Type definitions
 interface Ubicacion {
   slug: string;
   nombre: string;
@@ -38,7 +37,6 @@ interface Categoria {
   relacionadas: string[];
 }
 
-// Generate static params for all category/location combinations
 export async function generateStaticParams() {
   const params = [];
   for (const cat of categorias) {
@@ -52,7 +50,6 @@ export async function generateStaticParams() {
   return params;
 }
 
-// Generate metadata for SEO
 export async function generateMetadata({
   params,
 }: {
@@ -62,13 +59,11 @@ export async function generateMetadata({
   const ubicacion = ubicaciones.find((u) => u.slug === params.ubicacion) as Ubicacion | undefined;
 
   if (!categoria || !ubicacion) {
-    return {
-      title: 'Página no encontrada',
-    };
+    return { title: 'P\u00e1gina no encontrada' };
   }
 
   const title = `${categoria.nombre} en ${ubicacion.nombre} | Bambora`;
-  const description = `${categoria.descripcionCorta} Producción audiovisual profesional para ${categoria.nombreCorto} en ${ubicacion.nombre}. Equipo especializado en ${ubicacion.tipo}s. Contáctanos.`;
+  const description = `${categoria.descripcionCorta} Producci\u00f3n audiovisual profesional para ${categoria.nombreCorto} en ${ubicacion.nombre}. Equipo especializado en ${ubicacion.tipo}s. Cont\u00e1ctanos.`;
   const url = `${SITE_URL}/${params.categoria}/${params.ubicacion}`;
   const keywords = [...categoria.keywords, ubicacion.nombre, `${categoria.nombreCorto} ${ubicacion.nombre}`].join(', ');
 
@@ -76,22 +71,13 @@ export async function generateMetadata({
     title,
     description,
     keywords,
-    alternates: {
-      canonical: url,
-    },
+    alternates: { canonical: url },
     openGraph: {
       title,
       description,
       url,
       type: 'website',
-      images: [
-        {
-          url: `${SITE_URL}/og-image.jpg`,
-          width: 1200,
-          height: 630,
-          alt: title,
-        },
-      ],
+      images: [{ url: `${SITE_URL}/og-image.jpg`, width: 1200, height: 630, alt: title }],
     },
     twitter: {
       card: 'summary_large_image',
@@ -102,33 +88,26 @@ export async function generateMetadata({
   };
 }
 
-// Page Component
 export default function Page({ params }: { params: { categoria: string; ubicacion: string } }) {
   const categoria = categorias.find((c) => c.slug === params.categoria) as Categoria | undefined;
   const ubicacion = ubicaciones.find((u) => u.slug === params.ubicacion) as Ubicacion | undefined;
 
   if (!categoria || !ubicacion) {
-    return <div className="page-container">Página no encontrada</div>;
+    return <div className="page-container">P\u00e1gina no encontrada</div>;
   }
 
-  // Get related categories for internal links
   const relatedCats = categoria.relacionadas
     .map((slug) => categorias.find((c) => c.slug === slug))
     .filter((c) => c !== undefined) as Categoria[];
 
-  // Get other locations in same category for internal links
   const otherLocations = ubicaciones
     .filter((u) => u.slug !== ubicacion.slug)
     .slice(0, 10);
 
-  // Answer-first paragraph combining categoria and ubicacion data
-  const answerFirstParagraph = `En Bambora ofrecemos ${categoria.nombreCorto} de nivel profesional en ${ubicacion.nombre}, ${ubicacion.comunidad} — ${ubicacion.descripcion}. ${categoria.intro}
-
-${ubicacion.nombre} cuenta con infraestructura ideal para este tipo de producciones: ${ubicacion.venues}. ${ubicacion.logistica} Nuestro equipo conoce ${ubicacion.tipo === 'ciudad' ? 'la ciudad' : 'la zona'} y se adapta al entorno para maximizar el resultado audiovisual de tu evento.`;
+  const answerFirstParagraph = `En Bambora ofrecemos ${categoria.nombreCorto} de nivel profesional en ${ubicacion.nombre}, ${ubicacion.comunidad} \u2014 ${ubicacion.descripcion}. ${categoria.intro}\n\n${ubicacion.nombre} cuenta con infraestructura ideal para este tipo de producciones: ${ubicacion.venues}. ${ubicacion.logistica} Nuestro equipo conoce ${ubicacion.tipo === 'ciudad' ? 'la ciudad' : 'la zona'} y se adapta al entorno para maximizar el resultado audiovisual de tu evento.`;
 
   return (
     <>
-      {/* JSON-LD Schemas */}
       <OrganizationSchema />
       <LocalBusinessSchema ubicacion={ubicacion} />
       <ServiceSchema categoria={categoria} ubicacion={ubicacion} />
@@ -138,62 +117,62 @@ ${ubicacion.nombre} cuenta con infraestructura ideal para este tipo de produccio
       <ReviewSchema />
 
       <div className="page-container">
-        {/* Breadcrumb Navigation */}
-        <nav className="breadcrumb" aria-label="Breadcrumb">
-          <a href={SITE_URL}>Inicio</a>
+        {/* Breadcrumb */}
+        <nav className="breadcrumb" aria-label="Breadcrumb" style={{ mixBlendMode: 'normal', position: 'static', padding: 0 }}>
+          <a href="/">Inicio</a>
           <span className="breadcrumb-sep">/</span>
-          <a href={`${SITE_URL}/${categoria.slug}`}>{categoria.nombre}</a>
+          <a href={`/${categoria.slug}/`}>{categoria.nombre}</a>
           <span className="breadcrumb-sep">/</span>
-          <span>{`${categoria.nombre} en ${ubicacion.nombre}`}</span>
+          <span>{ubicacion.nombre}</span>
         </nav>
 
-        {/* Hero Section */}
+        {/* Hero */}
         <section className="page-hero">
           <div className="page-hero-label">{ubicacion.nombre}</div>
-          <h1>{`${categoria.nombre} en ${ubicacion.nombre}`}</h1>
-          <p className="page-hero-sub intro-text">{answerFirstParagraph}</p>
+          <h1>{categoria.nombre} en {ubicacion.nombre}</h1>
+          <p className="page-hero-sub">{answerFirstParagraph}</p>
           <a href="mailto:hello@bambora.agency" className="cta-button">
             Solicita tu presupuesto
           </a>
         </section>
 
-        {/* Services Section */}
+        {/* Services */}
         <section className="section">
-          <h2>{`¿Qué incluye nuestro servicio de ${categoria.nombreCorto} en ${ubicacion.nombre}?`}</h2>
+          <h2>\u00bfQu\u00e9 incluye nuestro servicio de {categoria.nombreCorto} en {ubicacion.nombre}?</h2>
           <div className="services-grid">
             {categoria.servicios.map((servicio, index) => (
               <div key={index} className="service-card">
-                <div className="service-num">{index + 1}</div>
+                <div className="service-num">{String(index + 1).padStart(2, '0')}</div>
                 <h3 className="service-name">{servicio}</h3>
               </div>
             ))}
           </div>
         </section>
 
-        {/* How To Section */}
+        {/* How To */}
         <section className="section">
-          <h2>{`¿Cómo funciona contratar ${categoria.nombreCorto} en ${ubicacion.nombre}?`}</h2>
+          <h2>\u00bfC\u00f3mo funciona contratar {categoria.nombreCorto} en {ubicacion.nombre}?</h2>
           <div className="steps-grid">
             {[
               {
                 title: 'Solicita tu presupuesto',
-                description: `Contacta con Bambora para describir tu evento y necesidades de ${categoria.nombreCorto} en ${ubicacion.nombre}. Nuestro equipo evaluará tu proyecto y te proporcionará un presupuesto personalizado en 24 horas.`,
+                description: `Contacta con Bambora para describir tu evento y necesidades de ${categoria.nombreCorto} en ${ubicacion.nombre}. Nuestro equipo evaluar\u00e1 tu proyecto y te proporcionar\u00e1 un presupuesto personalizado en 24 horas.`,
               },
               {
-                title: 'Planificación y preproducción',
-                description: `Coordinamos los detalles logísticos, ubicaciones de grabación, permisos necesarios y equipamiento especializado para tu evento de ${categoria.nombreCorto}. Realizamos una reunión de briefing con stakeholders principales.`,
+                title: 'Planificaci\u00f3n y preproducci\u00f3n',
+                description: `Coordinamos los detalles log\u00edsticos, ubicaciones de grabaci\u00f3n, permisos necesarios y equipamiento especializado para tu evento de ${categoria.nombreCorto}. Realizamos una reuni\u00f3n de briefing con stakeholders principales.`,
               },
               {
-                title: 'Grabación en el evento',
+                title: 'Grabaci\u00f3n en el evento',
                 description: `Nuestro equipo de profesionales se desplaza a ${ubicacion.nombre} con equipamiento de cine profesional para capturar toda la cobertura de ${categoria.nombreCorto}. Trabajamos discretamente sin interrumpir la experiencia de los asistentes.`,
               },
               {
-                title: 'Edición y postproducción',
-                description: `Editamos el material con estándares de cine profesional, incluyendo corrección de color, sonido envolvente y efectos visuales. Generamos múltiples formatos y versiones para tus necesidades de distribución.`,
+                title: 'Edici\u00f3n y postproducci\u00f3n',
+                description: `Editamos el material con est\u00e1ndares de cine profesional, incluyendo correcci\u00f3n de color, sonido envolvente y efectos visuales. Generamos m\u00faltiples formatos y versiones para tus necesidades de distribuci\u00f3n.`,
               },
               {
                 title: 'Entrega y lanzamiento',
-                description: `Entregas el contenido final sin marca de agua en múltiples formatos (4K, 1080p, vertical para redes). Incluimos sesión de capacitación sobre cómo maximizar el uso del material en tus canales.`,
+                description: `Entregas el contenido final sin marca de agua en m\u00faltiples formatos (4K, 1080p, vertical para redes). Incluimos sesi\u00f3n de capacitaci\u00f3n sobre c\u00f3mo maximizar el uso del material en tus canales.`,
               },
             ].map((step, index) => (
               <div key={index} className="step">
@@ -205,9 +184,10 @@ ${ubicacion.nombre} cuenta con infraestructura ideal para este tipo de produccio
           </div>
         </section>
 
-        {/* FAQ Section */}
+
+        {/* FAQ */}
         <section className="section">
-          <h2>{`Preguntas frecuentes sobre ${categoria.nombreCorto} en ${ubicacion.nombre}`}</h2>
+          <h2>Preguntas frecuentes sobre {categoria.nombreCorto} en {ubicacion.nombre}</h2>
           <div className="faq-list">
             {categoria.faq.map((item, index) => (
               <details key={index} className="faq-item">
@@ -218,7 +198,7 @@ ${ubicacion.nombre} cuenta con infraestructura ideal para este tipo de produccio
           </div>
         </section>
 
-        {/* CTA Section */}
+        {/* CTA */}
         <section className="cta-section">
           <h2>¿Listo para llevar tu {categoria.nombreCorto} al siguiente nivel?</h2>
           <p>
@@ -229,17 +209,13 @@ ${ubicacion.nombre} cuenta con infraestructura ideal para este tipo de produccio
           </a>
         </section>
 
-        {/* Internal Links - Same Category, Other Locations */}
+        {/* Internal Links - Other Locations */}
         <section className="section">
-          <h2>{`${categoria.nombre} en otras ubicaciones`}</h2>
+          <h2>{categoria.nombre} en otras ubicaciones</h2>
           <div className="internal-links">
             <div className="links-grid">
               {otherLocations.map((ub) => (
-                <a
-                  key={ub.slug}
-                  href={`${SITE_URL}/${categoria.slug}/${ub.slug}`}
-                  className="internal-link"
-                >
+                <a key={ub.slug} href={`/${categoria.slug}/${ub.slug}/`} className="internal-link">
                   {categoria.nombre} en {ub.nombre}
                 </a>
               ))}
@@ -247,17 +223,13 @@ ${ubicacion.nombre} cuenta con infraestructura ideal para este tipo de produccio
           </div>
         </section>
 
-        {/* Internal Links - Related Categories, Same Location */}
+        {/* Internal Links - Related Categories */}
         <section className="section">
           <h2>Otros servicios audiovisuales en {ubicacion.nombre}</h2>
           <div className="internal-links">
             <div className="links-grid">
               {relatedCats.map((relCat) => (
-                <a
-                  key={relCat.slug}
-                  href={`${SITE_URL}/${relCat.slug}/${ubicacion.slug}`}
-                  className="internal-link"
-                >
+                <a key={relCat.slug} href={`/${relCat.slug}/${ubicacion.slug}/`} className="internal-link">
                   {relCat.nombre} en {ubicacion.nombre}
                 </a>
               ))}
