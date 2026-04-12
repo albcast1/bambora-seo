@@ -1,0 +1,362 @@
+[
+  {
+    "slug": "madrid",
+    "nombre": "Madrid",
+    "tipo": "ciudad",
+    "comunidad": "Comunidad de Madrid",
+    "descripcion": "Capital financiera y centro neurálgico para eventos corporativos de envergadura nacional e internacional.",
+    "venues": "Hoteles de lujo, centros de congresos, teatros históricos",
+    "logistica": "Acceso directo por autovía y vuelos nacionales e internacionales en Barajas."
+  },
+  {
+    "slug": "barcelona",
+    "nombre": "Barcelona",
+    "tipo": "ciudad",
+    "comunidad": "Cataluña",
+    "descripcion": "Metrópolis mediterránea con infraestructura moderna y prestigio internacional para producciones audiovisuales de alto nivel.",
+    "venues": "Pabellones feriales, auditorios de vanguardia, espacios portuarios",
+    "logistica": "Puerto y aeropuerto internacional con conexiones directas a Europa y América."
+  },
+  {
+    "slug": "valencia",
+    "nombre": "Valencia",
+    "tipo": "ciudad",
+    "comunidad": "Comunidad Valenciana",
+    "descripcion": "Ciudad de innovación con la Ciudad de las Artes y las Ciencias como escenario icónico para eventos corporativos.",
+    "venues": "Museos de arquitectura única, salones de convenciones, playas privadas",
+    "logistica": "Ferrocarril de alta velocidad y puerto comercial con excelente accesibilidad."
+  },
+  {
+    "slug": "sevilla",
+    "nombre": "Sevilla",
+    "tipo": "ciudad",
+    "comunidad": "Andalucía",
+    "descripcion": "Destino cultural con patrimonio singular para eventos que requieren elegancia y autenticidad andaluza.",
+    "venues": "Palacios renacentistas, teatros clásicos, salones de eventos con carácter",
+    "logistica": "Tren de alta velocidad hacia Madrid y Barcelona, aeropuerto con conexiones nacionales."
+  },
+  {
+    "slug": "bilbao",
+    "nombre": "Bilbao",
+    "tipo": "ciudad",
+    "comunidad": "País Vasco",
+    "descripcion": "Epicentro de diseño y arte contemporáneo ideal para eventos innovadores y de perfil tecnológico.",
+    "venues": "Museo Guggenheim, ría navegable, centro de convenciones de diseño",
+    "logistica": "Aeropuerto con vuelos europeos y conexión ferroviaria hacia el norte de España."
+  },
+  {
+    "slug": "malaga",
+    "nombre": "Málaga",
+    "tipo": "ciudad",
+    "comunidad": "Andalucía",
+    "descripcion": "Puerta de la Costa del Sol con clima excepcional para eventos al aire libre y retiros corporativos.",
+    "venues": "Resorts con salones, espacios de playa acondicionados, teatros al aire libre",
+    "logistica": "Aeropuerto internacional de importancia con vuelos directos europeos y conexión a Renfe."
+  },
+  {
+    "slug": "zaragoza",
+    "nombre": "Zaragoza",
+    "tipo": "ciudad",
+    "comunidad": "Aragón",
+    "descripcion": "Hub logístico central de España con infraestructura de eventos moderna y ubicación estratégica.",
+    "venues": "Salones feriales especializados, auditorios contemporáneos, espacios multiusos",
+    "logistica": "Punto de cruce de vías de ferrocarril y autovías, equidistante de Madrid y Barcelona."
+  },
+  {
+    "slug": "murcia",
+    "nombre": "Murcia",
+    "tipo": "ciudad",
+    "comunidad": "Región de Murcia",
+    "descripcion": "Centro emergente en la costa levantina con modernos espacios para congresos y producciones audiovisuales.",
+    "venues": "Centro de convenciones, teatros regionales, salones en hoteles de negocios",
+    "logistica": "Autopista hacia la costa y conexión ferroviaria con Alicante y Valencia."
+  },
+  {
+    "slug": "palma-de-mallorca",
+    "nombre": "Palma de Mallorca",
+    "tipo": "ciudad",
+    "comunidad": "Islas Baleares",
+    "descripcion": "Destino insular de lujo con clima mediterráneo ideal para eventos exclusivos y retiros corporativos.",
+    "venues": "Resorts de cinco estrellas, clubs náuticos, salones en palacios históricos",
+    "logistica": "Aeropuerto internacional con vuelos directos a toda Europa y conexión marítima."
+  },
+  {
+    "slug": "las-palmas",
+    "nombre": "Las Palmas",
+    "tipo": "ciudad",
+    "comunidad": "Canarias",
+    "descripcion": "Metrópolis canaria con infraestructura portuaria única para eventos con dimensión internacional.",
+    "venues": "Auditorios modernos, centros de convenciones portuarios, espacios en hoteles lujo",
+    "logistica": "Aeropuerto internacional y puerto de carga con conexiones regulares a Península."
+  },
+  {
+    "slug": "alicante",
+    "nombre": "Alicante",
+    "tipo": "ciudad",
+    "comunidad": "Comunidad Valenciana",
+    "descripcion": "Destino costero con infraestructura turística consolidada para eventos variados y producciones diversas.",
+    "venues": "Pabellones feriales modernos, playas equipadas, teatros mediterráneos",
+    "logistica": "Aeropuerto internacional cercano y carreteras de acceso directo a interior de España."
+  },
+  {
+    "slug": "cordoba",
+    "nombre": "Córdoba",
+    "tipo": "ciudad",
+    "comunidad": "Andalucía",
+    "descripcion": "Joya histórica con patios árabes y monumentos que ofrecen escenarios únicos para eventos con carácter.",
+    "venues": "Patios históricos, mezquita-catedral, espacios en cascos antiguos",
+    "logistica": "Tren de alta velocidad hacia Sevilla y Madrid, acceso por autovía principal."
+  },
+  {
+    "slug": "valladolid",
+    "nombre": "Valladolid",
+    "tipo": "ciudad",
+    "comunidad": "Castilla y León",
+    "descripcion": "Centro de referencia castellano con ambiente empresarial y buena infraestructura de congresos.",
+    "venues": "Salones de congresos especializados, teatros, espacios en museos",
+    "logistica": "Conexión ferroviaria a Madrid y norte de España, autopista de circunvalación."
+  },
+  {
+    "slug": "vigo",
+    "nombre": "Vigo",
+    "tipo": "ciudad",
+    "comunidad": "Galicia",
+    "descripcion": "Puerto gallego dinámico con tradición marinera para eventos con narrativa industrial o sostenible.",
+    "venues": "Museos contemporáneos, salones en ría, centros de negocios portuarios",
+    "logistica": "Aeropuerto cercano y conexión a la red de autovías de Galicia."
+  },
+  {
+    "slug": "a-coruna",
+    "nombre": "A Coruña",
+    "tipo": "ciudad",
+    "comunidad": "Galicia",
+    "descripcion": "Punto estratégico del Atlántico norte con ambiente cosmopolita para eventos marítimos y tecnológicos.",
+    "venues": "Espacios en puerto histórico, auditorios, salones en paseo marítimo",
+    "logistica": "Aeropuerto internacional y puerto histórico con acceso a red gallega de carreteras."
+  },
+  {
+    "slug": "granada",
+    "nombre": "Granada",
+    "tipo": "ciudad",
+    "comunidad": "Andalucía",
+    "descripcion": "Enclave romántico con la Alhambra como telón de fondo para eventos de alto perfil cultural.",
+    "venues": "Salones en la Alhambra, teatros con vistas, espacios en el Albaicín",
+    "logistica": "Aeropuerto cercano y conexión a autovía hacia costa o interior de Andalucía."
+  },
+  {
+    "slug": "san-sebastian",
+    "nombre": "San Sebastián",
+    "tipo": "ciudad",
+    "comunidad": "País Vasco",
+    "descripcion": "Capital gastronómica de España con ambiente sofisticado para eventos corporativos de élite.",
+    "venues": "Salones en hoteles de lujo, clubes privados, espacios históricos del casco antiguo",
+    "logistica": "Aeropuerto cercano en Hondarribia y conexión ferroviaria a Francia y resto de España."
+  },
+  {
+    "slug": "santander",
+    "nombre": "Santander",
+    "tipo": "ciudad",
+    "comunidad": "Cantabria",
+    "descripcion": "Balneario norte con modernidad arquitectónica para eventos corporativos con toque de sofisticación.",
+    "venues": "Paseo marítimo con salones, centros de convenciones, playas privadas",
+    "logistica": "Aeropuerto internacional y puerto con conexión ferroviaria al interior."
+  },
+  {
+    "slug": "pamplona",
+    "nombre": "Pamplona",
+    "tipo": "ciudad",
+    "comunidad": "Navarra",
+    "descripcion": "Ciudad histórica de Navarra con infraestructura empresarial moderna para eventos de empresa.",
+    "venues": "Salones de congresos especializados, teatros, espacios en casco medieval",
+    "logistica": "Acceso por autopista desde Madrid y conexión ferroviaria a Francia."
+  },
+  {
+    "slug": "toledo",
+    "nombre": "Toledo",
+    "tipo": "ciudad",
+    "comunidad": "Castilla-La Mancha",
+    "descripcion": "Patrimonio medieval fortificado perfecto para eventos temáticos con escenografía única.",
+    "venues": "Palacios históricos, conventos adaptados, plazas porticadas",
+    "logistica": "Cercano a Madrid con autopista directa, aunque acceso limitado al casco antiguo."
+  },
+  {
+    "slug": "salamanca",
+    "nombre": "Salamanca",
+    "tipo": "ciudad",
+    "comunidad": "Castilla y León",
+    "descripcion": "Universidad histórica con plaza mayor icónica para eventos académicos y corporativos de prestigio.",
+    "venues": "Salones en palacios, teatros universitarios, plazas históricas",
+    "logistica": "Conexión ferroviaria a Madrid y autovía hacia Portugal."
+  },
+  {
+    "slug": "girona",
+    "nombre": "Girona",
+    "tipo": "ciudad",
+    "comunidad": "Cataluña",
+    "descripcion": "Ciudad medieval catalana con río Onyar como escenario pintoresco para producciones diferenciadas.",
+    "venues": "Salones en edificios históricos, espacios ribereños, teatros pequeños",
+    "logistica": "Aeropuerto cercano compartido con Barcelona y acceso a Costa Brava."
+  },
+  {
+    "slug": "tarragona",
+    "nombre": "Tarragona",
+    "tipo": "ciudad",
+    "comunidad": "Cataluña",
+    "descripcion": "Puerto romano con anfiteatro mediterraneo para eventos con trasfondo histórico y marítimo.",
+    "venues": "Anfiteatro romano, salones portuarios, playas acondicionadas",
+    "logistica": "Tren de alta velocidad a Barcelona y Madrid, autopista costera."
+  },
+  {
+    "slug": "cadiz",
+    "nombre": "Cádiz",
+    "tipo": "ciudad",
+    "comunidad": "Andalucía",
+    "descripcion": "Ciudad portuaria atlántica con atmósfera marinera para eventos corporativos con carácter tradicional.",
+    "venues": "Salones en fortazas, teatros históricos, espacios en paseo marítimo",
+    "logistica": "Puerto histórico y conexión a red de autovías hacia Sevilla y Málaga."
+  },
+  {
+    "slug": "marbella",
+    "nombre": "Marbella",
+    "tipo": "ciudad",
+    "comunidad": "Andalucía",
+    "descripcion": "Destino de lujo con playas exclusivas ideal para eventos VIP y retiros ejecutivos de alto nivel.",
+    "venues": "Resorts de lujo con salones, clubs privados en playa, hoteles de cinco estrellas",
+    "logistica": "Cercano a Málaga con autopista de acceso directo y servicios de helipuerto."
+  },
+  {
+    "slug": "costa-brava",
+    "nombre": "Costa Brava",
+    "tipo": "zona",
+    "comunidad": "Cataluña",
+    "descripcion": "Litoral acantilado con calas escondidas ideal para eventos corporativos con escenografía natural espectacular.",
+    "venues": "Chiringuitos temáticos, salones en resorts costeros, espacios en playas privadas",
+    "logistica": "Autopista costera hacia Barcelona y Francia, múltiples puertos de acceso."
+  },
+  {
+    "slug": "costa-del-sol",
+    "nombre": "Costa del Sol",
+    "tipo": "zona",
+    "comunidad": "Andalucía",
+    "descripcion": "Costa radiante con 300 días de sol para conferencias y eventos corporativos al aire libre.",
+    "venues": "Resorts de playa, golf clubs de lujo, espacios de ocio temáticos",
+    "logistica": "Aeropuerto de Málaga central y autopista litoral con acceso a múltiples municipios."
+  },
+  {
+    "slug": "sierra-de-madrid",
+    "nombre": "Sierra de Madrid",
+    "tipo": "zona",
+    "comunidad": "Comunidad de Madrid",
+    "descripcion": "Retiro montañoso cercano a la capital para eventos de team building y retiros empresariales.",
+    "venues": "Lodges en montaña, casas de campo adaptadas, espacios de naturaleza",
+    "logistica": "A 40-60 km de Madrid con carreteras bien comunicadas hacia la capital."
+  },
+  {
+    "slug": "pirineo-catalan",
+    "nombre": "Pirineo Catalán",
+    "tipo": "zona",
+    "comunidad": "Cataluña",
+    "descripcion": "Macizo montañoso con paisajes alpinos para retiros corporativos inmersivos en naturaleza.",
+    "venues": "Resorts de montaña, hoteles rurales adaptados, espacios en pueblos históricos",
+    "logistica": "Acceso desde Barcelona en 2-3 horas, carreteras montañosas bien mantenidas."
+  },
+  {
+    "slug": "pirineo-aragones",
+    "nombre": "Pirineo Aragonés",
+    "tipo": "zona",
+    "comunidad": "Aragón",
+    "descripcion": "Frontera natural con Francia ofreciendo eventos en escenarios de montaña virgen y refrescantes.",
+    "venues": "Refugios adaptados, hoteles de montaña, espacios al aire libre en valles",
+    "logistica": "Acceso desde Zaragoza o Huesca, carreteras de montaña con paisajes de cuento."
+  },
+  {
+    "slug": "costa-blanca",
+    "nombre": "Costa Blanca",
+    "tipo": "zona",
+    "comunidad": "Comunidad Valenciana",
+    "descripcion": "Franja costera con playas de arena blanca para eventos corporativos con ambiente relajado y mediterráneo.",
+    "venues": "Resorts de playa, clubs de vela, espacios en paseos marítimos",
+    "logistica": "Aeropuerto de Alicante central y autopista litoral con fácil acceso a municipios."
+  },
+  {
+    "slug": "la-rioja",
+    "nombre": "La Rioja",
+    "tipo": "zona",
+    "comunidad": "La Rioja",
+    "descripcion": "Región vinícola de calidad mundial para eventos corporativos con temática de gastronomía y lujo.",
+    "venues": "Bodegas históricas, hoteles con spa, salones en casonas de viñedos",
+    "logistica": "Equidistante entre Madrid y Barcelona con carreteras de montaña y autopista del Ebro."
+  },
+  {
+    "slug": "asturias-rural",
+    "nombre": "Asturias Rural",
+    "tipo": "zona",
+    "comunidad": "Asturias",
+    "descripcion": "Verde interior asturiano con pueblos tradicionales para eventos auténticos y retiros de desconexión.",
+    "venues": "Casas rurales de lujo, pazos asturianos, espacios en caseríos adaptados",
+    "logistica": "Acceso desde Oviedo o Gijón por carreteras de montaña con paisajes verdes."
+  },
+  {
+    "slug": "cantabria-rural",
+    "nombre": "Cantabria Rural",
+    "tipo": "zona",
+    "comunidad": "Cantabria",
+    "descripcion": "Valles y pueblos costeros para eventos con ambiente marino y tradición pastoril.",
+    "venues": "Posadas rurales, casonas históricas, espacios en prados naturales",
+    "logistica": "Acceso desde Santander o Bilbao por carreteras nacionales de buena calidad."
+  },
+  {
+    "slug": "ibiza",
+    "nombre": "Ibiza",
+    "tipo": "zona",
+    "comunidad": "Islas Baleares",
+    "descripcion": "Isla cosmopolita con energía única para eventos corporativos con toque de diseño y modernidad.",
+    "venues": "Clubs de diseño, resorts de lujo, espacios en casco antiguo",
+    "logistica": "Aeropuerto internacional con vuelos directos a Europa y ferry desde Palma."
+  },
+  {
+    "slug": "menorca",
+    "nombre": "Menorca",
+    "tipo": "zona",
+    "comunidad": "Islas Baleares",
+    "descripcion": "Isla virgen y tranquila para retiros corporativos exclusivos con enfoque sostenible.",
+    "venues": "Resorts con vista al mar, espacios en playas privadas, casas históricas",
+    "logistica": "Aeropuerto pequeño con conexiones a Palma y vuelos a Barcelona."
+  },
+  {
+    "slug": "tenerife",
+    "nombre": "Tenerife",
+    "tipo": "zona",
+    "comunidad": "Canarias",
+    "descripcion": "Mayor isla canaria con infraestructura de lujo para eventos internacionales de gran envergadura.",
+    "venues": "Resorts de clase mundial, centros de convenciones, espacios de ocio temáticos",
+    "logistica": "Aeropuerto principal de Canarias con vuelos internacionales y ferry a islas vecinas."
+  },
+  {
+    "slug": "lanzarote",
+    "nombre": "Lanzarote",
+    "tipo": "zona",
+    "comunidad": "Canarias",
+    "descripcion": "Isla volcánica con paisajes únicos para eventos corporativos con identidad artística y natural.",
+    "venues": "Espacios en parques naturales, resorts con diseño, salones en villages temáticos",
+    "logistica": "Aeropuerto internacional y puerto con conexiones a otras islas canarias."
+  },
+  {
+    "slug": "mallorca-interior",
+    "nombre": "Mallorca Interior",
+    "tipo": "zona",
+    "comunidad": "Islas Baleares",
+    "descripcion": "Corazón insular con pueblos encantadores para eventos rurales de lujo y retiros ejecutivos.",
+    "venues": "Fincas históricas adaptadas, hoteles boutique, espacios en pueblos medievales",
+    "logistica": "A 30-45 minutos de Palma por carreteras rurales bien comunicadas."
+  },
+  {
+    "slug": "pais-vasco-rural",
+    "nombre": "País Vasco Rural",
+    "tipo": "zona",
+    "comunidad": "País Vasco",
+    "descripcion": "Caseríos y pueblos vascos para eventos auténticos con tradición gastronómica y cultural.",
+    "venues": "Caseríos históricos, bodegas de sidra, espacios en cooperativas adaptadas",
+    "logistica": "Acceso desde Bilbao o San Sebastián por carreteras de montaña del interior vasco."
+  }
+]
