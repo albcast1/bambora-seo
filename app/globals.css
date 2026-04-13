@@ -533,7 +533,45 @@ footer {
 
 /* PAGE HERO */
 .page-hero {
-  margin: 3rem 0 2rem 0;
+  position: relative;
+  margin: 2rem 0 3rem 0;
+  min-height: 60vh;
+  min-height: 60dvh;
+  display: flex;
+  align-items: flex-end;
+  padding: 3rem 2rem;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #0a0a0a;
+}
+
+.page-hero-video {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.page-hero-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.45;
+}
+
+.page-hero-video::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(5,5,5,0.85) 0%, rgba(5,5,5,0.3) 60%, transparent 100%);
+  z-index: 2;
+}
+
+.page-hero-content {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 900px;
 }
 
 .page-hero h1 {
@@ -544,6 +582,7 @@ footer {
   margin-bottom: 1rem;
   letter-spacing: -0.03em;
   text-transform: uppercase;
+  color: var(--white);
 }
 
 .page-hero-label {
@@ -557,11 +596,11 @@ footer {
 .page-hero-sub {
   font-family: 'Instrument Serif', serif;
   font-size: clamp(1rem, 2vw, 1.4rem);
-  color: var(--dim);
+  color: rgba(255,255,255,0.85);
   line-height: 1.6;
   max-width: 800px;
   font-style: italic;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 /* CTA BUTTON */
@@ -616,9 +655,17 @@ footer {
 /* SERVICES GRID */
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.25rem;
   margin: 2rem 0;
+}
+
+@media (max-width: 1100px) {
+  .services-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 700px) {
+  .services-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 .service-card {
@@ -655,9 +702,17 @@ footer {
 /* STEPS */
 .steps-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
   margin: 2rem 0;
+}
+
+@media (max-width: 1100px) {
+  .steps-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 700px) {
+  .steps-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 .step {

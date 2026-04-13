@@ -93,7 +93,7 @@ export default function Page({ params }: { params: { categoria: string; ubicacio
   const ubicacion = ubicaciones.find((u) => u.slug === params.ubicacion) as Ubicacion | undefined;
 
   if (!categoria || !ubicacion) {
-    return <div className="page-container">P\u00e1gina no encontrada</div>;
+    return <div className="page-container">Página no encontrada</div>;
   }
 
   const relatedCats = categoria.relacionadas
@@ -103,8 +103,6 @@ export default function Page({ params }: { params: { categoria: string; ubicacio
   const otherLocations = ubicaciones
     .filter((u) => u.slug !== ubicacion.slug)
     .slice(0, 10);
-
-  const answerFirstParagraph = `En Bambora ofrecemos ${categoria.nombreCorto} de nivel profesional en ${ubicacion.nombre}, ${ubicacion.comunidad} \u2014 ${ubicacion.descripcion}. ${categoria.intro}\n\n${ubicacion.nombre} cuenta con infraestructura ideal para este tipo de producciones: ${ubicacion.venues}. ${ubicacion.logistica} Nuestro equipo conoce ${ubicacion.tipo === 'ciudad' ? 'la ciudad' : 'la zona'} y se adapta al entorno para maximizar el resultado audiovisual de tu evento.`;
 
   return (
     <>
@@ -128,17 +126,33 @@ export default function Page({ params }: { params: { categoria: string; ubicacio
 
         {/* Hero */}
         <section className="page-hero">
-          <div className="page-hero-label">{ubicacion.nombre}</div>
-          <h1>{categoria.nombre} en {ubicacion.nombre}</h1>
-          <p className="page-hero-sub">{answerFirstParagraph}</p>
-          <a href="mailto:hello@bambora.agency" className="cta-button">
-            Solicita tu presupuesto
-          </a>
+          <div className="page-hero-video">
+            <video autoPlay muted loop playsInline>
+              <source src="https://videos.pexels.com/video-files/3571264/3571264-uhd_2560_1440_30fps.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div className="page-hero-content">
+            <div className="page-hero-label">{ubicacion.nombre}</div>
+            <h1>{categoria.nombre} en {ubicacion.nombre}</h1>
+            <p className="page-hero-sub">{categoria.descripcionCorta}</p>
+            <a href="mailto:hello@bambora.agency" className="cta-button">
+              Solicita tu presupuesto
+            </a>
+          </div>
+        </section>
+
+        {/* Contexto ubicación */}
+        <section className="section">
+          <p className="intro-text">
+            <strong style={{ color: 'var(--white)', fontStyle: 'normal', fontFamily: 'Syne, sans-serif', letterSpacing: '0.05em', textTransform: 'uppercase', fontSize: '0.75rem' }}>{ubicacion.nombre}, {ubicacion.comunidad}</strong>
+            <br />
+            {ubicacion.descripcion} {ubicacion.logistica}
+          </p>
         </section>
 
         {/* Services */}
         <section className="section">
-          <h2>\u00bfQu\u00e9 incluye nuestro servicio de {categoria.nombreCorto} en {ubicacion.nombre}?</h2>
+          <h2>¿Qué incluye nuestro servicio de {categoria.nombreCorto} en {ubicacion.nombre}?</h2>
           <div className="services-grid">
             {categoria.servicios.map((servicio, index) => (
               <div key={index} className="service-card">
@@ -151,7 +165,7 @@ export default function Page({ params }: { params: { categoria: string; ubicacio
 
         {/* How To */}
         <section className="section">
-          <h2>\u00bfC\u00f3mo funciona contratar {categoria.nombreCorto} en {ubicacion.nombre}?</h2>
+          <h2>¿Cómo funciona contratar {categoria.nombreCorto} en {ubicacion.nombre}?</h2>
           <div className="steps-grid">
             {[
               {
