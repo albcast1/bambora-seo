@@ -57,7 +57,7 @@ export default function Home() {
           <div className="reel-item">
             <div className="reel-bg"></div>
             <video autoPlay muted loop playsInline>
-              <source src="/hero-reel.mp4" type="video/mp4" />
+              <source src="/hero-reel.mp4.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="reel-item">
