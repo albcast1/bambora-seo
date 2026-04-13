@@ -17,9 +17,9 @@ export default function Home() {
           <h1 className="hero-title">BAM<span className="stroke">BO</span><br />RA</h1>
           <div className="hero-bottom">
             <p className="hero-tag">
-              Producci\u00f3n audiovisual que convierte tu evento en <em>marca</em>.
+              Producción audiovisual que convierte tu evento en <em>marca</em>.
             </p>
-            <span className="hero-scroll">Scroll \u2193</span>
+            <span className="hero-scroll">Scroll ↓</span>
           </div>
         </div>
       </section>
@@ -57,7 +57,7 @@ export default function Home() {
           <div className="reel-item">
             <div className="reel-bg"></div>
             <video autoPlay muted loop playsInline>
-              <source src="/hero-reel.mp4" type="video/mp4" />
+              <source src="https://videos.pexels.com/video-files/2795756/2795756-uhd_2560_1440_25fps.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="reel-item">
