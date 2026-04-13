@@ -31,8 +31,8 @@ export default function RootLayout({
         {children}
 
         <footer>
-          <div className="footer-brand">Bambora \u00a9 2026</div>
-          <div className="footer-loc">Toda Espa\u00f1a</div>
+          <div className="footer-brand">Bambora © 2026</div>
+          <div className="footer-loc">Toda España</div>
         </footer>
       </body>
     </html>
