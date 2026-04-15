@@ -9,7 +9,8 @@ export default function Home() {
           <div className="orb orb-3"></div>
         </div>
         <div className="hero-video">
-          <video autoPlay muted loop playsInline>
+          <video autoPlay muted loop playsInline preload="metadata" poster="/hero-poster.jpg">
+            <source src="https://videos.pexels.com/video-files/3571264/3571264-hd_1280_720_30fps.mp4" type="video/mp4" />
             <source src="https://videos.pexels.com/video-files/3571264/3571264-uhd_2560_1440_30fps.mp4" type="video/mp4" />
           </video>
         </div>
@@ -56,19 +57,21 @@ export default function Home() {
         <div className="reel-grid">
           <div className="reel-item">
             <div className="reel-bg"></div>
-            <video autoPlay muted loop playsInline>
+            <video autoPlay muted loop playsInline preload="metadata">
               <source src="/hero-reel.mp4.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="reel-item">
             <div className="reel-bg"></div>
-            <video autoPlay muted loop playsInline>
+            <video autoPlay muted loop playsInline preload="metadata">
+              <source src="https://videos.pexels.com/video-files/8710272/8710272-hd_1280_720_30fps.mp4" type="video/mp4" />
               <source src="https://videos.pexels.com/video-files/8710272/8710272-uhd_2560_1440_30fps.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="reel-item">
             <div className="reel-bg"></div>
-            <video autoPlay muted loop playsInline>
+            <video autoPlay muted loop playsInline preload="metadata">
+              <source src="https://videos.pexels.com/video-files/3255325/3255325-hd_1280_720_25fps.mp4" type="video/mp4" />
               <source src="https://videos.pexels.com/video-files/3255325/3255325-uhd_2560_1440_25fps.mp4" type="video/mp4" />
             </video>
           </div>

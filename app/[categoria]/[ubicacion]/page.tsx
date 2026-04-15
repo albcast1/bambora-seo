@@ -72,6 +72,13 @@ export async function generateMetadata({
     description,
     keywords,
     alternates: { canonical: url },
+    // Noindex: 20×40=800 páginas cuasi-idénticas son doorway pages (Google penaliza).
+    // Las mantenemos accesibles (SEM, enlaces directos) pero fuera del índice orgánico.
+    // El valor SEO se concentra en los 20 hubs /[categoria]/ indexables.
+    robots: {
+      index: false,
+      follow: true,
+    },
     openGraph: {
       title,
       description,
@@ -127,7 +134,8 @@ export default function Page({ params }: { params: { categoria: string; ubicacio
         {/* Hero */}
         <section className="page-hero">
           <div className="page-hero-video">
-            <video autoPlay muted loop playsInline>
+            <video autoPlay muted loop playsInline preload="metadata">
+              <source src="https://videos.pexels.com/video-files/3571264/3571264-hd_1280_720_30fps.mp4" type="video/mp4" />
               <source src="https://videos.pexels.com/video-files/3571264/3571264-uhd_2560_1440_30fps.mp4" type="video/mp4" />
             </video>
           </div>
