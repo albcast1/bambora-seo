@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://www.bambora.agency'),
   title: 'BAMBORA — Producción audiovisual para eventos corporativos',
   description: 'Producción audiovisual de alta calidad para eventos corporativos en toda España.',
+  verification: {
+    google: '0m1TWJmc9xxeGqWYVuzpbDu3A_crzp1mqY1UpaI7h2c',
+  },
   alternates: { canonical: '/' },
   openGraph: {
     siteName: 'BAMBORA',
