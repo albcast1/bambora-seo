@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { OrganizationSchema } from '@/lib/schemas';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -32,6 +33,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body>
+        <OrganizationSchema />
         <div className="grain"></div>
 
         <nav>
