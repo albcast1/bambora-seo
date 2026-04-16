@@ -3,8 +3,22 @@ import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.bambora.agency'),
-  title: 'BAMBORA \u2014 Producci\u00f3n audiovisual para eventos corporativos',
-  description: 'Producci\u00f3n audiovisual de alta calidad para eventos corporativos en toda Espa\u00f1a.',
+  title: 'BAMBORA — Producción audiovisual para eventos corporativos',
+  description: 'Producción audiovisual de alta calidad para eventos corporativos en toda España.',
+  alternates: { canonical: '/' },
+  openGraph: {
+    siteName: 'BAMBORA',
+    locale: 'es_ES',
+    type: 'website',
+    title: 'BAMBORA — Producción audiovisual para eventos corporativos',
+    description: 'Producción audiovisual de alta calidad para eventos corporativos en toda España.',
+    url: 'https://www.bambora.agency',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'BAMBORA — Producción audiovisual para eventos corporativos',
+    description: 'Producción audiovisual de alta calidad para eventos corporativos en toda España.',
+  },
 };
 
 export default function RootLayout({
