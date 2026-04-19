@@ -41,7 +41,13 @@
       "aftermovie-para-empresas",
       "video-employer-branding",
       "contenido-redes-sociales-eventos"
-    ]
+    ],
+    "portada": {
+      "url": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg",
+      "alt": "Equipo corporativo en offsite de empresa al aire libre",
+      "w": 1280,
+      "h": 853
+    }
   },
   {
     "slug": "team-building",
@@ -85,7 +91,13 @@
       "video-employer-branding",
       "contenido-redes-sociales-eventos",
       "video-recap-evento"
-    ]
+    ],
+    "portada": {
+      "url": "https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg",
+      "alt": "Actividad de team building corporativo con equipo de empresa",
+      "w": 1280,
+      "h": 853
+    }
   },
   {
     "slug": "viajes-de-empresa",
@@ -129,7 +141,13 @@
       "aftermovie-para-empresas",
       "grabacion-con-dron-eventos",
       "video-employer-branding"
-    ]
+    ],
+    "portada": {
+      "url": "https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg",
+      "alt": "Viaje corporativo de empresa con equipo directivo",
+      "w": 1280,
+      "h": 853
+    }
   },
   {
     "slug": "eventos-corporativos",
@@ -173,7 +191,13 @@
       "streaming-en-directo-corporativo",
       "video-testimonial-corporativo",
       "contenido-redes-sociales-eventos"
-    ]
+    ],
+    "portada": {
+      "url": "https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg",
+      "alt": "Producción audiovisual en evento corporativo de empresa",
+      "w": 1280,
+      "h": 853
+    }
   },
   {
     "slug": "convenciones-de-empresa",
@@ -217,7 +241,13 @@
       "streaming-en-directo-corporativo",
       "video-recap-evento",
       "fotografo-eventos-corporativos"
-    ]
+    ],
+    "portada": {
+      "url": "https://images.pexels.com/photos/2833037/pexels-photo-2833037.jpeg",
+      "alt": "Convención de empresa con ponente y audiencia corporativa",
+      "w": 1280,
+      "h": 853
+    }
   },
   {
     "slug": "kickoff-de-empresa",
@@ -261,7 +291,13 @@
       "video-employer-branding",
       "contenido-redes-sociales-eventos",
       "aftermovie-para-empresas"
-    ]
+    ],
+    "portada": {
+      "url": "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg",
+      "alt": "Kickoff de empresa con presentación a equipo",
+      "w": 1280,
+      "h": 853
+    }
   },
   {
     "slug": "cenas-de-empresa",
@@ -305,7 +341,13 @@
       "fotografo-eventos-corporativos",
       "contenido-redes-sociales-eventos",
       "fotografia-corporativa"
-    ]
+    ],
+    "portada": {
+      "url": "https://images.pexels.com/photos/1321908/pexels-photo-1321908.jpeg",
+      "alt": "Cena de empresa con empleados en ambiente corporativo",
+      "w": 1280,
+      "h": 853
+    }
   },
   {
     "slug": "fiestas-de-empresa",
@@ -349,7 +391,13 @@
       "contenido-redes-sociales-eventos",
       "fotografo-eventos-corporativos",
       "video-recap-evento"
-    ]
+    ],
+    "portada": {
+      "url": "https://images.pexels.com/photos/1540406/pexels-photo-1540406.jpeg",
+      "alt": "Fiesta de empresa con empleados celebrando",
+      "w": 1280,
+      "h": 853
+    }
   },
   {
     "slug": "jornadas-corporativas",
@@ -393,7 +441,13 @@
       "video-testimonial-corporativo",
       "streaming-en-directo-corporativo",
       "contenido-redes-sociales-eventos"
-    ]
+    ],
+    "portada": {
+      "url": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
+      "alt": "Jornada corporativa con presentaciones y networking",
+      "w": 1280,
+      "h": 853
+    }
   },
   {
     "slug": "retiros-de-empresa",
@@ -437,7 +491,13 @@
       "aftermovie-para-empresas",
       "video-employer-branding",
       "grabacion-con-dron-eventos"
-    ]
+    ],
+    "portada": {
+      "url": "https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg",
+      "alt": "Retiro de empresa en entorno natural con equipo",
+      "w": 1280,
+      "h": 853
+    }
   },
   {
     "slug": "aftermovie-para-empresas",
@@ -481,7 +541,13 @@
       "video-recap-evento",
       "contenido-redes-sociales-eventos",
       "grabacion-con-dron-eventos"
-    ]
+    ],
+    "portada": {
+      "url": "https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg",
+      "alt": "Cámara profesional grabando aftermovie en evento de empresa",
+      "w": 1280,
+      "h": 853
+    }
   },
   {
     "slug": "fotografo-eventos-corporativos",
@@ -525,7 +591,13 @@
       "video-recap-evento",
       "contenido-redes-sociales-eventos",
       "fotografia-corporativa"
-    ]
+    ],
+    "portada": {
+      "url": "https://images.pexels.com/photos/1367269/pexels-photo-1367269.jpeg",
+      "alt": "Fotógrafo profesional en evento corporativo",
+      "w": 1280,
+      "h": 853
+    }
   },
   {
     "slug": "video-employer-branding",
@@ -569,7 +641,13 @@
       "video-testimonial-corporativo",
       "contenido-redes-sociales-eventos",
       "fotografia-corporativa"
-    ]
+    ],
+    "portada": {
+      "url": "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg",
+      "alt": "Vídeo de employer branding con empleados de empresa",
+      "w": 1280,
+      "h": 853
+    }
   },
   {
     "slug": "grabacion-con-dron-eventos",
@@ -613,7 +691,13 @@
       "aftermovie-para-empresas",
       "viajes-de-empresa",
       "video-recap-evento"
-    ]
+    ],
+    "portada": {
+      "url": "https://images.pexels.com/photos/336232/pexels-photo-336232.jpeg",
+      "alt": "Dron profesional grabando evento corporativo desde el aire",
+      "w": 1280,
+      "h": 853
+    }
   },
   {
     "slug": "streaming-en-directo-corporativo",
@@ -657,7 +741,13 @@
       "convenciones-de-empresa",
       "video-recap-evento",
       "aftermovie-para-empresas"
-    ]
+    ],
+    "portada": {
+      "url": "https://images.pexels.com/photos/2510428/pexels-photo-2510428.jpeg",
+      "alt": "Streaming en directo de evento corporativo con cámaras profesionales",
+      "w": 1280,
+      "h": 853
+    }
   },
   {
     "slug": "video-testimonial-corporativo",
@@ -701,7 +791,13 @@
       "video-employer-branding",
       "fotografia-corporativa",
       "contenido-redes-sociales-eventos"
-    ]
+    ],
+    "portada": {
+      "url": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg",
+      "alt": "Grabación de vídeo testimonial corporativo en estudio",
+      "w": 1280,
+      "h": 853
+    }
   },
   {
     "slug": "contenido-redes-sociales-eventos",
@@ -745,7 +841,13 @@
       "aftermovie-para-empresas",
       "video-recap-evento",
       "video-employer-branding"
-    ]
+    ],
+    "portada": {
+      "url": "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg",
+      "alt": "Contenido para redes sociales de eventos corporativos",
+      "w": 1280,
+      "h": 853
+    }
   },
   {
     "slug": "cobertura-ferias-congresos",
@@ -789,7 +891,13 @@
       "video-recap-evento",
       "fotografo-eventos-corporativos",
       "contenido-redes-sociales-eventos"
-    ]
+    ],
+    "portada": {
+      "url": "https://images.pexels.com/photos/1709003/pexels-photo-1709003.jpeg",
+      "alt": "Cobertura audiovisual de feria y congreso empresarial",
+      "w": 1280,
+      "h": 853
+    }
   },
   {
     "slug": "video-recap-evento",
@@ -833,7 +941,13 @@
       "aftermovie-para-empresas",
       "contenido-redes-sociales-eventos",
       "video-testimonial-corporativo"
-    ]
+    ],
+    "portada": {
+      "url": "https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg",
+      "alt": "Vídeo recap de evento corporativo editado profesionalmente",
+      "w": 1280,
+      "h": 853
+    }
   },
   {
     "slug": "fotografia-corporativa",
@@ -877,6 +991,12 @@
       "video-employer-branding",
       "fotografo-eventos-corporativos",
       "video-testimonial-corporativo"
-    ]
+    ],
+    "portada": {
+      "url": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg",
+      "alt": "Fotografía corporativa profesional de equipo directivo",
+      "w": 1280,
+      "h": 853
+    }
   }
 ]
