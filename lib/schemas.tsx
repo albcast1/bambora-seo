@@ -42,10 +42,37 @@ export function OrganizationSchema() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Bambora',
+    alternateName: 'Bambora Agency',
+    description: 'Agencia de producción audiovisual especializada en eventos corporativos en España. Aftermovies, fotografía, grabación con dron, streaming y contenido para redes sociales.',
     email: 'hello@bambora.agency',
     url: SITE_URL,
-    areaServed: 'ES',
-    image: `${SITE_URL}/logo.png`,
+    logo: `${SITE_URL}/logo.png`,
+    image: `${SITE_URL}/og-image.jpg`,
+    areaServed: {
+      '@type': 'Country',
+      name: 'España',
+    },
+    foundingDate: '2024',
+    knowsAbout: [
+      'Producción audiovisual corporativa',
+      'Aftermovies para eventos',
+      'Fotografía de eventos corporativos',
+      'Grabación con dron',
+      'Streaming corporativo',
+      'Team building',
+      'Offsites de empresa',
+    ],
+    contactPoint: {
+      '@type': 'ContactPoint',
+      email: 'hello@bambora.agency',
+      contactType: 'sales',
+      availableLanguage: 'Spanish',
+      areaServed: 'ES',
+    },
+    sameAs: [
+      'https://www.instagram.com/bambora.agency',
+      'https://www.linkedin.com/company/bambora-agency',
+    ],
   };
 
   return (
