@@ -279,6 +279,41 @@ export function HowToSchema({
   );
 }
 
+
+// Global LocalBusiness Schema (used in layout for all pages)
+export function LocalBizGlobalSchema() {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'Bambora',
+    alternateName: 'Bambora Agency',
+    description: 'Agencia de producción audiovisual especializada en eventos corporativos en España. Aftermovies, fotografía, grabación con dron, streaming y contenido para redes sociales.',
+    url: SITE_URL,
+    email: 'hello@bambora.agency',
+    image: `${SITE_URL}/og-image.jpg`,
+    logo: `${SITE_URL}/logo.png`,
+    areaServed: {
+      '@type': 'Country',
+      name: 'España',
+      '@id': 'https://www.wikidata.org/wiki/Q29',
+    },
+    priceRange: '€€',
+    currenciesAccepted: 'EUR',
+    paymentAccepted: 'Transferencia bancaria, tarjeta',
+    openingHours: 'Mo-Fr 09:00-18:00',
+    sameAs: [
+      'https://www.instagram.com/bambora.agency',
+      'https://www.linkedin.com/company/bambora-agency',
+    ],
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
 // Review Schema
 export function ReviewSchema() {
   const schema = {
