@@ -7,7 +7,6 @@ import {
   ServiceSchema,
   FAQSchema,
   BreadcrumbSchema,
-  BreadcrumbSchema,
 } from '@/lib/schemas';
 
 const SITE_URL = 'https://www.bambora.agency';
