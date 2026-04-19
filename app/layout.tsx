@@ -43,7 +43,7 @@ export default function RootLayout({
           </div>
           <div className="nav-right">
             <a href="/#proyectos">Proyectos</a>
-            <a href="mailto:hello@bambora.agency">Contacto</a>
+            <a href="/#contacto">Contacto</a>
             <div className="nav-dot"></div>
           </div>
         </nav>
