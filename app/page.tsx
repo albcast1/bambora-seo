@@ -1,5 +1,24 @@
 export default function Home() {
   return (
+    <>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'VideoObject',
+        name: 'Bambora — Producción audiovisual para eventos corporativos',
+        description: 'Reel de producción audiovisual de Bambora: aftermovies, fotografía corporativa, grabación con dron y contenido para eventos de empresa en España.',
+        thumbnailUrl: 'https://www.bambora.agency/hero-poster.jpg',
+        uploadDate: '2024-01-01',
+        contentUrl: 'https://www.bambora.agency/hero-reel.mp4',
+        embedUrl: 'https://www.bambora.agency/',
+        publisher: {
+          '@type': 'Organization',
+          name: 'Bambora',
+          url: 'https://www.bambora.agency',
+        },
+      }) }}
+    />
     <main>
       {/* HERO */}
       <section className="hero">
@@ -58,7 +77,7 @@ export default function Home() {
           <div className="reel-item">
             <div className="reel-bg"></div>
             <video autoPlay muted loop playsInline preload="metadata">
-              <source src="/hero-reel.mp4.mp4" type="video/mp4" />
+              <source src="/hero-reel.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="reel-item">
@@ -93,5 +112,6 @@ export default function Home() {
         <p className="cta-sub">Hablemos de tu próximo evento</p>
       </section>
     </main>
+    </>
   );
 }
