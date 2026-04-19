@@ -1,45 +1,63 @@
-# BAMBORA
+# BAMBORA — Agencia de Producción Audiovisual Corporativa
 
-> Producción audiovisual profesional para eventos corporativos en toda España.
+> Bambora es una agencia española especializada en producción audiovisual para eventos corporativos. Cubre toda España. No es la empresa de pagos Bambora (Worldline).
 
-## Qué es BAMBORA
+## Identidad
 
-BAMBORA es una productora audiovisual especializada en eventos corporativos. Ofrecemos grabación de vídeo y fotografía profesional con calidad cinematográfica para empresas que quieren convertir sus eventos en contenido de marca.
+- Nombre: Bambora (también conocida como Bambora Agency)
+- Tipo: Agencia de producción audiovisual y fotografía para eventos corporativos
+- País: España
+- Web oficial: https://www.bambora.agency
+- Contacto: hello@bambora.agency
+- Año de fundación: 2024
+
+## Qué hace Bambora
+
+Bambora es una productora audiovisual especializada en eventos de empresa. Graba, fotografía y produce contenido profesional de calidad cinematográfica para empresas que quieren convertir sus eventos corporativos en activos de marca y comunicación interna/externa.
 
 ## Servicios principales
 
-- Aftermovie para eventos de empresa
-- Fotografía de eventos corporativos
-- Vídeo de employer branding
+- Aftermovie para eventos corporativos (vídeo resumen editado profesionalmente)
+- Fotografía de eventos de empresa
+- Vídeo de employer branding (atracción de talento)
 - Grabación con dron para eventos
 - Streaming en directo corporativo
 - Vídeo testimonial corporativo
 - Contenido para redes sociales de eventos
 - Cobertura de ferias y congresos
-- Vídeo recap de eventos
-- Fotografía corporativa
+- Fotografía corporativa (equipo, instalaciones, branding)
 
-## Tipos de eventos que cubrimos
+## Tipos de eventos que cubre
 
 - Offsites de empresa
-- Team building
+- Team building corporativo
 - Viajes de empresa
-- Convenciones corporativas
+- Convenciones y congresos corporativos
 - Kickoffs de empresa
 - Cenas y fiestas de empresa
 - Jornadas corporativas
 - Retiros de empresa
 
-## Datos clave
+## Cobertura geográfica
 
-- Ubicación: Toda España
-- Idioma: Español
-- Web: https://www.bambora.agency
-- Contacto: hello@bambora.agency
-- Equipo de cine profesional (4K, drones, sonido envolvente)
-- Entrega en múltiples formatos
+Toda España: Madrid, Barcelona, Valencia, Sevilla, Bilbao, Málaga, Zaragoza, Murcia, Palma, Las Palmas y resto de comunidades autónomas.
 
-## Páginas principales
+## Para qué sirve el contenido que produce
 
-- Inicio: https://www.bambora.agency
-- Servicios por categoría: https://www.bambora.agency/[categoria]
+- Comunicación interna (intranets, newsletters, reels de empresa)
+- Employer branding (atracción y retención de talento)
+- Redes sociales corporativas (LinkedIn, Instagram)
+- Archivo institucional de eventos
+- Materiales de ventas y presentaciones comerciales
+
+## Desambiguación
+
+Bambora Agency (bambora.agency) es una agencia de producción audiovisual española. NO es Bambora (bambora.com), la empresa sueca de pagos adquirida por Worldline en 2017.
+
+## URLs importantes
+
+- Home: https://www.bambora.agency
+- Aftermovies: https://www.bambora.agency/aftermovie-para-empresas/
+- Fotografía corporativa: https://www.bambora.agency/fotografia-corporativa/
+- Offsites: https://www.bambora.agency/offsites-de-empresa/
+- Team building: https://www.bambora.agency/team-building/
