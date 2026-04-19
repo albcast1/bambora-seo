@@ -1070,3 +1070,8 @@ footer {
 .contact-form textarea::placeholder { color: #999; }
 .contact-form input:focus,
 .contact-form textarea:focus { border-color: rgba(0,0,0,.4); }
+
+/* ── CONTACT FORM top spacing ──────────────── */
+.contact-form {
+  margin-top: 3rem;
+}
