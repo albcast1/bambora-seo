@@ -22,6 +22,7 @@ interface Categoria {
   keywords: string[];
   faq: Array<{ pregunta: string; respuesta: string }>;
   relacionadas: string[];
+  portada?: { url: string; alt: string; w: number; h: number };
 }
 
 interface Ubicacion {
