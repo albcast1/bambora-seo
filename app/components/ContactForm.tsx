@@ -42,11 +42,11 @@ export default function ContactForm() {
         <input name="apellidos" type="text" placeholder="Apellidos *" required value={form.apellidos} onChange={handle} />
       </div>
       <div className="form-row">
-        <input name="telefono" type="tel" placeholder="Teléfono *" required value={form.telefono} onChange={handle} />
-        <input name="email" type="email" placeholder="Email de empresa *" required value={form.email} onChange={handle} />
+        <input name="telefono" className="form-input" type="tel" placeholder="Teléfono *" required value={form.telefono} onChange={handle} />
+        <input name="email" className="form-input" type="email" placeholder="Email de empresa *" required value={form.email} onChange={handle} />
       </div>
-      <input name="empresa" type="text" placeholder="Nombre de tu empresa" value={form.empresa} onChange={handle} />
-      <textarea name="mensaje" placeholder="¿En qué te podemos ayudar? *" required rows={4} value={form.mensaje} onChange={handle} />
+      <input name="empresa" className="form-input" type="text" placeholder="Nombre de tu empresa" value={form.empresa} onChange={handle} />
+      <textarea name="mensaje" className="form-input form-textarea" placeholder="¿En qué te podemos ayudar? *" required rows={4} value={form.mensaje} onChange={handle} />
       <button type="submit" className="cta-button" disabled={status==='sending'}>
         {status === 'sending' ? 'Enviando...' : 'Hablemos de tu proyecto'}
       </button>
