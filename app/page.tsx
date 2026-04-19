@@ -1,3 +1,4 @@
+import ContactForm from './components/ContactForm';
 export default function Home() {
   return (
     <>
@@ -106,11 +107,52 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="home-cta">
-        <a href="mailto:hello@bambora.agency" className="cta-email">hello@bambora.agency</a>
-        <p className="cta-sub">Hablemos de tu próximo evento</p>
+      {/* POR QUE BAMBORA */}
+      <section className="why-section">
+        <div className="why-label">Por qué Bambora</div>
+        <div className="why-grid">
+          <div className="why-item">
+            <span className="why-num">01</span>
+            <h3>Equipo desplazado a tu evento</h3>
+            <p>Nos movemos a donde sea. Madrid, Barcelona, Málaga, Sevilla o donde necesites. Sin costes ocultos de desplazamiento para eventos en las principales ciudades.</p>
+          </div>
+          <div className="why-item">
+            <span className="why-num">02</span>
+            <h3>Entrega rápida</h3>
+            <p>Aftermovie en 72 horas para eventos urgentes. Fotografía el mismo día. Contenido listo antes de que tu equipo vuelva de vuelta a la oficina.</p>
+          </div>
+          <div className="why-item">
+            <span className="why-num">03</span>
+            <h3>Una productora, todos los formatos</h3>
+            <p>Vídeo, fotografía, dron, streaming y contenido para redes. Un solo proveedor para todo el evento. Sin coordinaciones entre terceros.</p>
+          </div>
+          <div className="why-item">
+            <span className="why-num">04</span>
+            <h3>Enfoque en marca</h3>
+            <p>No grabamos eventos. Creamos activos de comunicación. Cada pieza está pensada para LinkedIn, para tu intranet, para el siguiente dosier comercial.</p>
+          </div>
+        </div>
       </section>
+
+      {/* TIPOS DE EVENTOS */}
+      <section className="types-section">
+        <div className="types-label">Para qué tipo de eventos</div>
+        <p className="types-intro">
+          Cubrimos desde offsites íntimos de 10 personas hasta convenciones de 500 asistentes.
+          Si tiene cámara delante, lo hacemos bien.
+        </p>
+        <div className="types-list">
+          {[
+            'Offsites y retiros de equipo','Convenciones y kickoffs','Team building','Cenas y fiestas de empresa',
+            'Ferias y congresos','Vídeos de employer branding','Testimoniales de cliente','Streaming corporativo'
+          ].map((t,i)=>(
+            <span key={i} className="type-tag">{t}</span>
+          ))}
+        </div>
+      </section>
+
+      {/* CONTACT FORM */}
+      <ContactForm />
     </main>
     </>
   );
