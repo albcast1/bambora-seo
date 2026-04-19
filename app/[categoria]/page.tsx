@@ -96,6 +96,17 @@ export default function CategoriaHubPage({ params }: { params: { categoria: stri
 
         {/* Hero */}
         <section className="page-hero">
+          {categoria.portada && (
+            <img
+              src={categoria.portada.url}
+              alt={categoria.portada.alt}
+              width={categoria.portada.w}
+              height={categoria.portada.h}
+              loading="eager"
+              fetchPriority="high"
+              style={{ width:'100%', height:'320px', objectFit:'cover', borderRadius:'12px', marginBottom:'2rem', display:'block' }}
+            />
+          )}
           <div className="page-hero-content">
             <div className="page-hero-label">{categoria.nombre}</div>
             <h1>{categoria.titulo}</h1>
