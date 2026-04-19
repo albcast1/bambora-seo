@@ -1,4 +1,6 @@
 import ContactForm from './components/ContactForm';
+import ContactForm from './components/ContactForm';
+
 export default function Home() {
   return (
     <>
