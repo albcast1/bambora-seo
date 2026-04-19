@@ -7,6 +7,7 @@ import {
   ServiceSchema,
   FAQSchema,
   BreadcrumbSchema,
+  BreadcrumbSchema,
 } from '@/lib/schemas';
 
 const SITE_URL = 'https://www.bambora.agency';
@@ -82,9 +83,9 @@ export default function CategoriaHubPage({ params }: { params: { categoria: stri
 
   return (
     <>
-      <OrganizationSchema />
       <ServiceSchema categoria={categoria} ubicacion={primeraUbicacion} />
       <FAQSchema faq={categoria.faq} />
+    <BreadcrumbSchema categoria={categoria} ubicacion={primeraUbicacion} />
 
       <div className="page-container">
         <nav className="breadcrumb" aria-label="Breadcrumb" style={{ mixBlendMode: 'normal', position: 'static', padding: 0 }}>
