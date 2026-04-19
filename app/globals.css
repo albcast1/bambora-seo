@@ -1036,3 +1036,36 @@ footer {
   text-align: center;
   opacity: .8;
 }
+
+/* ── MANIFESTO size cap (desktop) ─────────── */
+@media (min-width: 768px) {
+  .manifesto-text {
+    font-size: clamp(1.4rem, 2.2vw, 2rem) !important;
+    line-height: 1.5;
+  }
+}
+
+/* ── FORM inputs inside rows ──────────────── */
+.form-row input,
+.form-row textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: rgba(255,255,255,.05);
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 8px;
+  padding: .85rem 1.1rem;
+  color: #fff;
+  font-size: .95rem;
+  outline: none;
+  transition: border-color .2s;
+  font-family: inherit;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder { opacity: .4; }
+.contact-form input:focus,
+.contact-form textarea:focus { border-color: rgba(255,255,255,.4); }
