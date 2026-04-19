@@ -4,9 +4,9 @@ import Link from 'next/link';
 import categorias from '@/data/categorias.json';
 import ubicaciones from '@/data/ubicaciones.json';
 import {
-  OrganizationSchema,
   ServiceSchema,
   FAQSchema,
+  BreadcrumbSchema,
 } from '@/lib/schemas';
 
 const SITE_URL = 'https://www.bambora.agency';
