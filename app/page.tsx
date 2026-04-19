@@ -1,5 +1,4 @@
 import ContactForm from './components/ContactForm';
-import ContactForm from './components/ContactForm';
 
 export default function Home() {
   return (
@@ -154,7 +153,16 @@ export default function Home() {
       </section>
 
       {/* CONTACT FORM */}
-      <ContactForm />
+      <section className="contact-section" id="contacto">
+        <div className="contact-inner">
+          <div className="contact-copy">
+            <div className="what-label">Contacto</div>
+            <h2>Cuéntanos tu evento</h2>
+            <p>Respondemos en menos de 24 horas. Si tienes fecha, te confirmamos disponibilidad al momento.</p>
+          </div>
+          <ContactForm />
+        </div>
+      </section>
     </main>
     </>
   );
