@@ -983,7 +983,7 @@ footer {
 }
 .contact-sub {
   opacity: .6;
-  margin: 0 0 3rem;
+  margin: 0 0 4rem;
   font-size: .95rem;
 }
 .contact-form {
@@ -1056,17 +1056,17 @@ footer {
 .contact-form textarea {
   width: 100%;
   box-sizing: border-box;
-  background: rgba(255,255,255,.05);
-  border: 1px solid rgba(255,255,255,.12);
+  background: #fff;
+  border: 1px solid rgba(0,0,0,.12);
   border-radius: 8px;
   padding: .85rem 1.1rem;
-  color: #fff;
+  color: #111;
   font-size: .95rem;
   outline: none;
   transition: border-color .2s;
   font-family: inherit;
 }
 .contact-form input::placeholder,
-.contact-form textarea::placeholder { opacity: .4; }
+.contact-form textarea::placeholder { color: #999; }
 .contact-form input:focus,
-.contact-form textarea:focus { border-color: rgba(255,255,255,.4); }
+.contact-form textarea:focus { border-color: rgba(0,0,0,.4); }
