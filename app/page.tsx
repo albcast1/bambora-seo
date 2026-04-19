@@ -10,7 +10,7 @@ export default function Home() {
         description: 'Reel de producción audiovisual de Bambora: aftermovies, fotografía corporativa, grabación con dron y contenido para eventos de empresa en España.',
         thumbnailUrl: 'https://www.bambora.agency/hero-poster.jpg',
         uploadDate: '2024-01-01',
-        contentUrl: 'https://www.bambora.agency/hero-reel.mp4',
+        contentUrl: 'https://www.bambora.agency/hero-reel.mp4.mp4',
         embedUrl: 'https://www.bambora.agency/',
         publisher: {
           '@type': 'Organization',
@@ -77,7 +77,7 @@ export default function Home() {
           <div className="reel-item">
             <div className="reel-bg"></div>
             <video autoPlay muted loop playsInline preload="metadata">
-              <source src="/hero-reel.mp4" type="video/mp4" />
+              <source src="/hero-reel.mp4.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="reel-item">
