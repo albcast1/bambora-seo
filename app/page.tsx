@@ -11,7 +11,7 @@ export default function Home() {
         name: 'Bambora — Producción audiovisual para eventos corporativos',
         description: 'Reel de producción audiovisual de Bambora: aftermovies, fotografía corporativa, grabación con dron y contenido para eventos de empresa en España.',
         thumbnailUrl: 'https://www.bambora.agency/hero-poster.jpg',
-        uploadDate: '2024-01-01',
+        uploadDate: '2024-01-01T00:00:00+00:00',
         contentUrl: 'https://www.bambora.agency/hero-reel.mp4.mp4',
         embedUrl: 'https://www.bambora.agency/',
         publisher: {
